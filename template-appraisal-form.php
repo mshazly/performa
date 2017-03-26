@@ -17,7 +17,7 @@ get_header(); ?>
                             <div class="form-group col-md-6 col-sm-12">
                                 <label class="col-sm-2 form-control-label" for="txt_empname">الاسم</label>
                                 <div class="col-sm-10">
-                                  <input type="text" id="txt_empname" name="txt_empname" class="form-control"  value="أحمد عبد السلام " disabled>
+                                  <input type="text" id="txt_empname" name="txt_empname" class="form-control"  value=" منصور أحمد عبد السلام " disabled>
                                 </div>
                             </div>
 
@@ -49,14 +49,14 @@ get_header(); ?>
                             <div class="form-group col-md-6 col-sm-12">
                                 <label class="col-sm-2 form-control-label" for="txt_location">الموقع</label>
                                 <div class="col-sm-10">
-                                  <input type="text" id="txt_location" name="txt_location" class="form-control">
+                                  <input type="text" id="txt_location" name="txt_location" class="form-control"   value="الشيخ زايد" disabled>
                                 </div>
                             </div>
 
                             <div class="form-group col-md-6 col-sm-12">
                                 <label class="col-sm-2 form-control-label" for="txt_appointment_date">تاريخ التعيين</label>
                                 <div class="col-sm-10">
-                                  <input type="text" id="txt_appointment_date" name="txt_appointment_date" class="form-control"  value="٢٥ يناير ٢٠١١" disabled>
+                                  <input type="text" id="txt_appointment_date" name="txt_appointment_date" class="form-control"  value="١٧ مارس ٢٠١٤ " disabled>
                                 </div>
                             </div>
                     </div>
