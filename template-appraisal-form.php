@@ -5,10 +5,10 @@ get_header(); ?>
 <!-- content -->
 <div id="content" class="app-content box-shadow-z2 bg pjax-container" role="main">
     <div class="padding">
-        
+
         <form class="p-x-xs" name="frm_appraisal" id="frm_appraisal" method="POST">
-            
-            <div class="box"> 
+
+            <div class="box">
                 <div class="box-header">
                     <h2>بيانات الموظف</h2>
                 </div>
@@ -17,14 +17,14 @@ get_header(); ?>
                             <div class="form-group col-md-6 col-sm-12">
                                 <label class="col-sm-2 form-control-label" for="txt_empname">الاسم</label>
                                 <div class="col-sm-10">
-                                  <input type="text" id="txt_empname" name="txt_empname" class="form-control">
+                                  <input type="text" id="txt_empname" name="txt_empname" class="form-control"  value="أحمد عبد السلام " disabled>
                                 </div>
                             </div>
 
                             <div class="form-group col-md-6 col-sm-12">
                                 <label class="col-sm-2 form-control-label" for="txt_prfm_no">رقم الاداء</label>
                                 <div class="col-sm-10">
-                                  <input type="text" id="txt_prfm_no" name="txt_prfm_no" class="form-control">
+                                  <input type="text" id="txt_prfm_no" name="txt_prfm_no" class="form-control"  value="3324" disabled>
                                 </div>
                             </div>
 
@@ -34,13 +34,13 @@ get_header(); ?>
                             <div class="form-group col-md-6 col-sm-12">
                                 <label class="col-sm-2 form-control-label" for="txt_emptitle">الوظيفة</label>
                                 <div class="col-sm-10">
-                                  <input type="text" id="txt_emptitle" name="txt_emptitle" class="form-control">
+                                  <input type="text" id="txt_emptitle" name="txt_emptitle" class="form-control"  value="محاسب " disabled>
                                 </div>
                             </div>
                             <div class="form-group col-md-6 col-sm-12">
                                 <label class="col-sm-2 form-control-label" for="txt_directory">الادارة</label>
                                 <div class="col-sm-10">
-                                  <input type="text" id="txt_directory" name="txt_directory" class="form-control">
+                                  <input type="text" id="txt_directory" name="txt_directory" class="form-control"  value="الحسابات" disabled>
                                 </div>
                             </div>
                     </div>
@@ -56,26 +56,26 @@ get_header(); ?>
                             <div class="form-group col-md-6 col-sm-12">
                                 <label class="col-sm-2 form-control-label" for="txt_appointment_date">تاريخ التعيين</label>
                                 <div class="col-sm-10">
-                                  <input type="text" id="txt_appointment_date" name="txt_appointment_date" class="form-control">
+                                  <input type="text" id="txt_appointment_date" name="txt_appointment_date" class="form-control"  value="٢٥ يناير ٢٠١١" disabled>
                                 </div>
                             </div>
                     </div>
                 </div>
             </div>
-            
-            <!--div class="box"> 
+
+            <!--div class="box">
                 <div class="box-header">
                     <h2>الاهداف: 60% (يتم فقط تقييم نسبة التحقيق الهدف من 100%)</h2>
                 </div>
                 <div class="box-body">
                 </div>
             </div-->
-            
-            <div class="box"> 
+
+            <div class="box">
                 <div class="box-header">
                     <h2>الاهداف: 60% (يتم فقط تقييم نسبة التحقيق الهدف من 100%)</h2>
                 </div>
-                <div class="table-responsive">  
+                <div class="table-responsive">
                     <table class="table table-bordered m-a-0">
                         <thead>
                           <tr>
@@ -183,13 +183,13 @@ get_header(); ?>
                         </tfoot>
                     </table>
                 </div>
-          </div>  
-            
-            <div class="box"> 
+          </div>
+
+            <div class="box">
                 <div class="box-header">
                     <h2>الجدارات : 30%</h2>
                 </div>
-                <div class="table-responsive">  
+                <div class="table-responsive">
                     <table class="table table-bordered m-a-0">
                         <thead>
                           <tr>
@@ -291,10 +291,10 @@ get_header(); ?>
                               </td>
                           </tr>
                           <tr>
-                              <td rowspan="3">الجدارات الفنية </td> 
+                              <td rowspan="3">الجدارات الفنية </td>
                           </tr>
-                          <tr class="technical_competencies"> 
-                              <td></td> 
+                          <tr class="technical_competencies">
+                              <td></td>
                               <td>
                                 <div class="form-group">
                                       <input type="text" id="tbl_txt_tech_comp_1_weight" name="tbl_txt_tech_comp_1_weight" class="form-control">
@@ -321,8 +321,8 @@ get_header(); ?>
                                 </div>
                               </td>
                           </tr>
-                          <tr class="technical_competencies"> 
-                              <td></td> 
+                          <tr class="technical_competencies">
+                              <td></td>
                               <td>
                                 <div class="form-group">
                                       <input type="text" id="tbl_txt_tech_comp_2_weight" name="tbl_txt_tech_comp_2_weight" class="form-control">
@@ -350,8 +350,8 @@ get_header(); ?>
                               </td>
                           </tr>
                           <tr class="leading_competencies">
-                              <td>جدارات القيادة</td> 
-                              <td></td> 
+                              <td>جدارات القيادة</td>
+                              <td></td>
                               <td>
                                 <div class="form-group">
                                       <input type="text" id="tbl_txt_lead_comp_weight" name="tbl_txt_lead_comp_weight" class="form-control">
@@ -378,7 +378,7 @@ get_header(); ?>
                                 </div>
                               </td>
                           </tr>
-                          
+
                         </tbody>
                         <tfoot>
                             <tr>
@@ -393,13 +393,13 @@ get_header(); ?>
                         </tfoot>
                     </table>
                 </div>
-          </div>  
-            
-            <div class="box"> 
+          </div>
+
+            <div class="box">
                 <div class="box-header">
                     <h2>السلوك : 10%</h2>
                 </div>
-                <div class="table-responsive">  
+                <div class="table-responsive">
                     <table class="table table-bordered m-a-0">
                         <thead>
                           <tr>
@@ -447,7 +447,7 @@ get_header(); ?>
                             </td>
                           </tr>
                           <tr>
-                            <td>المظهر الشخصى الاهتمام بالمظهر الشخصى 
+                            <td>المظهر الشخصى الاهتمام بالمظهر الشخصى
                             (الالتزام والحفاظ على مظهر الزى الرسمى للشركة ان وجد والظهور بشكل لائق</td>
                             <td>
                                 <div class="form-group">
@@ -465,7 +465,7 @@ get_header(); ?>
                                 </div>
                             </td>
                           </tr>
-                          
+
                         </tbody>
                         <tfoot>
                             <tr>
@@ -477,12 +477,12 @@ get_header(); ?>
                         </tfoot>
                     </table>
                 </div>
-          </div> 
-            
-            
-            
-             <div class="box"> 
-                <div class="table-responsive">  
+          </div>
+
+
+
+             <div class="box">
+                <div class="table-responsive">
                     <table class="table table-bordered m-a-0">
                         <tbody>
                           <tr>
@@ -494,16 +494,16 @@ get_header(); ?>
                             <td></td>
                           </tr>
                         </tbody>
-                        
+
                     </table>
                 </div>
-            </div> 
-            
-            <div class="box"> 
+            </div>
+
+            <div class="box">
                 <div class="box-header">
                     <h2>التدريب : برجاء ذكر الاحتياجات التدريبية الفنية فقط وترتيبهم بالاهمية وترشيح مركز تدريبى ان وجد</h2>
                 </div>
-                <div class="table-responsive">  
+                <div class="table-responsive">
                     <table class="table table-bordered m-a-0">
                         <thead>
                           <tr>
@@ -522,7 +522,7 @@ get_header(); ?>
                                               <option value="OR">Oregon</option>
                                               <option value="WA">Washington</option>
                                       </select>
-                                </div> 
+                                </div>
                               </td>
                             <td>
                                 <div class="form-group">
@@ -531,14 +531,14 @@ get_header(); ?>
                             </td>
                           </tr>
                         </tbody>
-                        
+
                     </table>
                 </div>
-          </div> 
-            
-        
+          </div>
+
+
         </form>
-    
+
     </div>
 </div>
 

@@ -16,7 +16,7 @@
   <!-- for Chrome on Android, multi-resolution icon of 196x196 -->
   <meta name="mobile-web-app-capable" content="yes">
   <link rel="shortcut icon" sizes="196x196" href="<?php echo get_template_directory_uri(); ?>/_include/images/logo.png">
-  
+
   <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
@@ -39,7 +39,7 @@
       </div>
       <div data-flex class="hide-scroll">
           <nav class="scroll nav-stacked nav-stacked-rounded nav-color">
-            
+
             <ul class="nav" data-ui-nav>
               <!--li class="nav-header hidden-folded">
                 <span class="text-xs">Main</span>
@@ -49,7 +49,7 @@
                   <span class="nav-icon text-white no-fade">
                     <i class="ion-filing"></i>
                   </span>
-                  <span class="nav-text">Dashboard</span>
+                  <span class="nav-text">تقييم الأداء</span>
                 </a>
               </li>
               <li>
@@ -57,7 +57,7 @@
                   <span class="nav-icon text-white no-fade">
                     <i class="ion-android-apps"></i>
                   </span>
-                  <span class="nav-text">Projects</span>
+                  <span class="nav-text">إدارة المجموعات</span>
                 </a>
               </li>
               <li>
@@ -76,7 +76,7 @@
                   <span class="nav-icon">
                     <i class="ion-chatbubble-working"></i>
                   </span>
-                  <span class="nav-text">Messages</span>
+                  <span class="nav-text">التنبيهات</span>
                 </a>
               </li>
               <li>
@@ -84,16 +84,16 @@
                   <span class="nav-icon">
                     <i class="ion-person"></i>
                   </span>
-                  <span class="nav-text">Contacts</span>
+                  <span class="nav-text">بيانات العاملين</span>
                 </a>
               </li>
-            
-              
-            
+
+
+
             </ul>
           </nav>
       </div>
-      
+
     </div>
   </div>
   <!-- / -->
