@@ -40,7 +40,7 @@ function performa_scripts() {
     wp_enqueue_script('app-js', get_template_directory_uri() . '/_include/js/app.js', 'jquery', '1.0', TRUE);
     wp_enqueue_script('ajax-js', get_template_directory_uri() . '/_include/js/ajax.js', 'jquery', '1.0', TRUE);
     wp_enqueue_script('rtl-js', get_template_directory_uri() . '/_include/js/rtl.js', 'jquery', '1.0', TRUE);
-    wp_enqueue_script('scripts-js', get_template_directory_uri() . '/_include/js/scripts.js', 'jquery', '1.0', TRUE);
+    wp_enqueue_script('scripts-js', get_template_directory_uri() . '/_include/js/scripts.js', 'jquery', '1.1', TRUE);
   
     
     /*  

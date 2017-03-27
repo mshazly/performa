@@ -202,11 +202,11 @@ get_header(); ?>
                           <!--tr>
                             <td rowspan="4">جدارات رئيسية </td>
                           </tr-->
-                          <tr class="major_competencies">
+                          <tr class="major_competencies" comp_no="1">
                               <td>مهارات الاتصال</td>
                               <td>
                                 <div class="form-group">
-                                    <input type="text" id="tbl_txt_comm_skils_weight" name="tbl_txt_comm_skils_weight" class="form-control" value="20%" disabled>
+                                    <input type="text" id="tbl_txt_comm_skils_weight" name="tbl_txt_comm_skils_weight" class="form-control comptencies_weight" value="20%" disabled>
                                 </div>
                               </td>
                               <td>
@@ -226,15 +226,15 @@ get_header(); ?>
                               </td>
                               <td>
                                 <div class="form-group">
-                                      <input type="text" id="tbl_txt_comm_skils_weight_40" name="tbl_txt_comm_skils_weight_40" class="form-control comptencies_weight">
+                                      <input type="text" id="tbl_txt_comm_skils_weight_30" name="tbl_txt_comm_skils_weight_30" class="form-control comptencies_weight_30">
                                 </div>
                               </td>
                           </tr>
-                          <tr class="major_competencies">
+                          <tr class="major_competencies" comp_no="2">
                               <td>رضا العميل</td>
                               <td>
                                 <div class="form-group">
-                                      <input type="text" id="tbl_txt_client_satisfaction_weight" name="tbl_txt_client_satisfaction_weight" class="form-control" value="20%" disabled>
+                                      <input type="text" id="tbl_txt_client_satisfaction_weight" name="tbl_txt_client_satisfaction_weight" class="form-control comptencies_weight" value="20%" disabled>
                                 </div>
                               </td>
                               <td>
@@ -244,7 +244,7 @@ get_header(); ?>
                               </td>
                               <td>
                                 <div class="form-group">
-                                      <input type="text" id="tbl_txt_client_satisfaction_degree_100" name="tbl_txt_client_satisfaction_degree_100" class="form-control comptencies_degree">
+                                      <input type="text" id="tbl_txt_client_satisfaction_degree_100" name="tbl_txt_client_satisfaction_degree_100" class="form-control comptencies_degree" >
                                 </div>
                               </td>
                               <td>
@@ -254,15 +254,15 @@ get_header(); ?>
                               </td>
                               <td>
                                 <div class="form-group">
-                                      <input type="text" id="tbl_txt_client_satisfaction_weight_40" name="tbl_txt_client_satisfaction_weight_40" class="form-control comptencies_weight">
+                                      <input type="text" id="tbl_txt_client_satisfaction_weight_30" name="tbl_txt_client_satisfaction_weight_30" class="form-control comptencies_weight_30">
                                 </div>
                               </td>
                           </tr>
-                          <tr class="major_competencies">
+                          <tr class="major_competencies" comp_no="3">
                               <td>التركيز على النتائج</td>
                               <td>
                                 <div class="form-group">
-                                      <input type="text" id="tbl_txt_results_focus_weight" name="tbl_txt_results_focus_weight" class="form-control" value="20%" disabled>
+                                      <input type="text" id="tbl_txt_results_focus_weight" name="tbl_txt_results_focus_weight" class="form-control comptencies_weight" value="60%" disabled>
                                 </div>
                               </td>
                               <td>
@@ -272,7 +272,7 @@ get_header(); ?>
                               </td>
                               <td>
                                 <div class="form-group">
-                                      <input type="text" id="tbl_txt_results_focus_degree_100" name="tbl_txt_results_focus_degree_100" class="form-control comptencies_degree">
+                                      <input type="text" id="tbl_txt_results_focus_degree_100" name="tbl_txt_results_focus_degree_100" class="form-control comptencies_degree" >
                                 </div>
                               </td>
                               <td>
@@ -282,7 +282,7 @@ get_header(); ?>
                               </td>
                               <td>
                                 <div class="form-group">
-                                      <input type="text" id="tbl_txt_results_focus_weight_40" name="tbl_txt_results_focus_weight_40" class="form-control comptencies_weight">
+                                      <input type="text" id="tbl_txt_results_focus_weight_30" name="tbl_txt_results_focus_weight_30" class="form-control comptencies_weight_30">
                                 </div>
                               </td>
                           </tr>
@@ -345,31 +345,31 @@ get_header(); ?>
                                 </div>
                               </td>
                           </tr-->
-                          <tr class="leading_competencies">
+                          <tr class="leading_competencies" comp_no="4">
                               <td>جدارات القيادة</td>
                               <td>
                                 <div class="form-group">
-                                      <input type="text" id="tbl_txt_lead_comp_weight" name="tbl_txt_lead_comp_weight" class="form-control">
+                                    <input type="text" id="tbl_txt_lead_comp_weight" name="tbl_txt_lead_comp_weight" class="form-control comptencies_weight" disabled>
                                 </div>
                               </td>
                               <td>
                                 <div class="form-group">
-                                      <input type="text" id="tbl_txt_lead_comp_level" name="tbl_txt_lead_comp_level" class="form-control">
+                                    <input type="text" id="tbl_txt_lead_comp_level" name="tbl_txt_lead_comp_level" class="form-control" disabled>
                                 </div>
                               </td>
                               <td>
                                 <div class="form-group">
-                                      <input type="text" id="tbl_txt_lead_comp_degree_100" name="tbl_txt_lead_comp_degree_100" class="form-control">
+                                      <input type="text" id="tbl_txt_lead_comp_degree_100" name="tbl_txt_lead_comp_degree_100" class="form-control comptencies_degree" >
                                 </div>
                               </td>
                               <td>
                                 <div class="form-group">
-                                      <input type="text" id="tbl_txt_lead_comp_performance" name="tbl_txt_lead_comp_performance" class="form-control">
+                                      <input type="text" id="tbl_txt_lead_comp_performance" name="tbl_txt_lead_comp_performance" class="form-control comptencies_performance">
                                 </div>
                               </td>
                               <td>
                                 <div class="form-group">
-                                      <input type="text" id="tbl_txt_lead_comp_weight_40" name="tbl_txt_lead_comp_weight_40" class="form-control">
+                                      <input type="text" id="tbl_txt_lead_comp_weight_30" name="tbl_txt_lead_comp_weight_30" class="form-control comptencies_weight_30">
                                 </div>
                               </td>
                           </tr>
@@ -404,58 +404,58 @@ get_header(); ?>
                           </tr>
                         </thead>
                         <tbody>
-                          <tr>
+                          <tr behavior_no="1">
                             <td>الحضور والانصراف  :(الالتزام بلائحة الشركة فيما يتعلق بالحضور والانصراف ورصيد الاجازات والاذونات )</td>
                             <td>
                                 <div class="form-group">
-                                      <input type="text" id="tbl_txt_absence_presence_degree" name="tbl_txt_absence_presence_degree" class="form-control">
+                                      <input type="text" id="tbl_txt_absence_presence_degree" name="tbl_txt_absence_presence_degree" class="form-control behavior_degree">
                                 </div>
                             </td>
                             <td>
                                 <div class="form-group">
-                                      <input type="text" id="tbl_txt_absence_presence_perform" name="tbl_txt_absence_presence_perform" class="form-control">
+                                      <input type="text" id="tbl_txt_absence_presence_perform" name="tbl_txt_absence_presence_perform" class="form-control behavior_performance">
                                 </div>
                             </td>
                             <td>
                                 <div class="form-group">
-                                      <input type="text" id="tbl_txt_absence_presence_weight" name="tbl_txt_absence_presence_weight" class="form-control">
+                                      <input type="text" id="tbl_txt_absence_presence_weight" name="tbl_txt_absence_presence_weight" class="form-control behavior_weight">
                                 </div>
                             </td>
                           </tr>
-                          <tr>
+                          <tr behavior_no="2">
                             <td>العلاقات مع الزملاء والرؤساء:المشاركة الفعالة مع فريق العمل لتحقيق هدف مشترك  مع الحفاظ علاقات محترمة مع الروءساء داخل إطار العمل)</td>
                             <td>
                                 <div class="form-group">
-                                      <input type="text" id="tbl_txt_relation_degree" name="tbl_txt_relation_degree" class="form-control">
+                                      <input type="text" id="tbl_txt_relation_degree" name="tbl_txt_relation_degree" class="form-control behavior_degree">
                                 </div>
                             </td>
                             <td>
                                 <div class="form-group">
-                                      <input type="text" id="tbl_txt_relation_perfom" name="tbl_txt_relation_perfom" class="form-control">
+                                      <input type="text" id="tbl_txt_relation_perfom" name="tbl_txt_relation_perfom" class="form-control behavior_performance">
                                 </div>
                             </td>
                             <td>
                                 <div class="form-group">
-                                      <input type="text" id="tbl_txt_relation_weight" name="tbl_txt_relation_weight" class="form-control">
+                                      <input type="text" id="tbl_txt_relation_weight" name="tbl_txt_relation_weight" class="form-control behavior_weight">
                                 </div>
                             </td>
                           </tr>
-                          <tr>
+                          <tr behavior_no="3">
                             <td>المظهر الشخصى الاهتمام بالمظهر الشخصى
                             (الالتزام والحفاظ على مظهر الزى الرسمى للشركة ان وجد والظهور بشكل لائق</td>
                             <td>
                                 <div class="form-group">
-                                      <input type="text" id="tbl_txt_appearance_degree" name="tbl_txt_appearance_degree" class="form-control">
+                                      <input type="text" id="tbl_txt_appearance_degree" name="tbl_txt_appearance_degree" class="form-control behavior_degree">
                                 </div>
                             </td>
                             <td>
                                 <div class="form-group">
-                                      <input type="text" id="tbl_txt_appearance_perfom" name="tbl_txt_appearance_perfom" class="form-control">
+                                      <input type="text" id="tbl_txt_appearance_perfom" name="tbl_txt_appearance_perfom" class="form-control behavior_performance">
                                 </div>
                             </td>
                             <td>
                                 <div class="form-group">
-                                      <input type="text" id="tbl_txt_appearance_weight" name="tbl_txt_appearance_weight" class="form-control">
+                                      <input type="text" id="tbl_txt_appearance_weight" name="tbl_txt_appearance_weight" class="form-control behavior_weight">
                                 </div>
                             </td>
                           </tr>
