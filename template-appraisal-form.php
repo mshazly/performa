@@ -76,11 +76,10 @@ get_header(); ?>
                     <h2>الاهداف: 60% (يتم فقط تقييم نسبة التحقيق الهدف من 100%)</h2>
                 </div>
                 <div class="table-responsive">
-                    <table class="table table-bordered m-a-0">
+                    <table class="table table-bordered m-a-0" id="tbl_objectives_performance">
                         <thead>
                           <tr>
-                            <th>م</th>
-                            <th colspan="3">الاهداف</th>
+                            <th>الاهداف</th>
                             <th>الوزن</th>
                             <th>نسبة التحقيق</th>
                             <th>الاداء</th>
@@ -89,7 +88,6 @@ get_header(); ?>
                         </thead>
                         <tbody>
                           <tr>
-                            <td>1</td>
                             <td colspan="3">
                                 <div class="form-group">
                                       <input type="text" id="tbl_txt_objective_1" name="tbl_txt_objective_1" class="form-control">
@@ -117,7 +115,6 @@ get_header(); ?>
                             </td>
                           </tr>
                           <tr>
-                            <td>2</td>
                             <td colspan="3">
                                 <div class="form-group">
                                       <input type="text" id="tbl_txt_objective_2" name="tbl_txt_objective_2" class="form-control">
@@ -145,7 +142,6 @@ get_header(); ?>
                             </td>
                           </tr>
                           <tr>
-                            <td>3</td>
                             <td colspan="3">
                                 <div class="form-group">
                                       <input type="text" id="tbl_txt_objective_3" name="tbl_txt_objective_3" class="form-control">
@@ -177,8 +173,8 @@ get_header(); ?>
                             <tr>
                                 <td colspan="4">الاجمالى</td>
                                 <td>100%</td>
-                                <td colspan="2">80%</td>
-                                <td>50%</td>
+                                <td id="total_objectives_performance" colspan="2"></td>
+                                <td id="total_total_objectives_performance_weight"></td>
                             </tr>
                         </tfoot>
                     </table>
@@ -190,22 +186,22 @@ get_header(); ?>
                     <h2>الجدارات : 30%</h2>
                 </div>
                 <div class="table-responsive">
-                    <table class="table table-bordered m-a-0">
+                    <table class="table table-bordered m-a-0" id="tbl_comptencies">
                         <thead>
                           <tr>
-                            <th>التصنيف</th>
+                            <!--th>التصنيف</th-->
                             <th>الجدارة</th>
                             <th>الوزن</th>
                             <th>المستوى</th>
                             <th>الدرجة (من 100%) </th>
                             <th>الاداء</th>
-                            <th>الوزن من 40%</th>
+                            <th>الوزن من 30%</th>
                           </tr>
                         </thead>
                         <tbody>
-                          <tr>
+                          <!--tr>
                             <td rowspan="4">جدارات رئيسية </td>
-                          </tr>
+                          </tr-->
                           <tr class="major_competencies">
                               <td>مهارات الاتصال</td>
                               <td>
@@ -290,7 +286,7 @@ get_header(); ?>
                                 </div>
                               </td>
                           </tr>
-                          <tr>
+                          <!--tr>
                               <td rowspan="3">الجدارات الفنية </td>
                           </tr>
                           <tr class="technical_competencies">
@@ -348,10 +344,9 @@ get_header(); ?>
                                       <input type="text" id="tbl_txt_tech_comp_2_weight_40" name="tbl_txt_tech_comp_2_weight_40" class="form-control">
                                 </div>
                               </td>
-                          </tr>
+                          </tr-->
                           <tr class="leading_competencies">
                               <td>جدارات القيادة</td>
-                              <td></td>
                               <td>
                                 <div class="form-group">
                                       <input type="text" id="tbl_txt_lead_comp_weight" name="tbl_txt_lead_comp_weight" class="form-control">
@@ -383,12 +378,11 @@ get_header(); ?>
                         <tfoot>
                             <tr>
                                 <td>اجمالى الجدارات</td>
-                                <td></td>
                                 <td>100%</td>
                                 <td></td>
                                 <td></td>
-                                <td>88%</td>
-                                <td>26%</td>
+                                <td id="total_comp_degree" ></td>
+                                <td id="total_comp_weight"></td>
                             </tr>
                         </tfoot>
                     </table>
@@ -400,7 +394,7 @@ get_header(); ?>
                     <h2>السلوك : 10%</h2>
                 </div>
                 <div class="table-responsive">
-                    <table class="table table-bordered m-a-0">
+                    <table class="table table-bordered m-a-0" id="tbl_behavior">
                         <thead>
                           <tr>
                             <th></th>
@@ -471,8 +465,8 @@ get_header(); ?>
                             <tr>
                                 <td>الاجمالى</td>
                                 <td></td>
-                                <td></td>
-                                <td></td>
+                                <td id="total_behavior_performance"></td>
+                                <td id="total_behavior_weight"></td>
                             </tr>
                         </tfoot>
                     </table>
@@ -491,7 +485,7 @@ get_header(); ?>
                             <td></td>
                             <td></td>
                             <td></td>
-                            <td></td>
+                            <td id="total_performance"></td>
                           </tr>
                         </tbody>
 
