@@ -12,7 +12,7 @@ add_action('init', 'jquery_cdn');
 
 function performa_scripts() {
 
-    wp_enqueue_style( 'main-style', get_template_directory_uri() . '/style.css', '1.0' );
+    wp_enqueue_style( 'main-style', get_template_directory_uri() . '/style.css', '1.2' );
     
     
     wp_enqueue_script('tether', get_template_directory_uri() . '/_include/libs/tether/dist/js/tether.min.js', 'jquery', '1.0', TRUE);
@@ -40,6 +40,7 @@ function performa_scripts() {
     wp_enqueue_script('app-js', get_template_directory_uri() . '/_include/js/app.js', 'jquery', '1.0', TRUE);
     wp_enqueue_script('ajax-js', get_template_directory_uri() . '/_include/js/ajax.js', 'jquery', '1.0', TRUE);
     wp_enqueue_script('rtl-js', get_template_directory_uri() . '/_include/js/rtl.js', 'jquery', '1.0', TRUE);
+    wp_enqueue_script('scripts-js', get_template_directory_uri() . '/_include/js/scripts.js', 'jquery', '1.0', TRUE);
   
     
     /*  

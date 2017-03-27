@@ -27,10 +27,22 @@
 @import url("//fonts.googleapis.com/css?family=Cairo|Scheherazade");
 
 body{
-    font-family: 'Scheherazade', Arial, serif;    
+    font-family: 'Scheherazade', Arial, serif;
+    color: #000;
 }
 h1,h2,h3,h4,h5,h6{
     font-family: 'Cairo', sans-serif;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*  App Form
+/*-----------------------------------------------------------------------------------*/
+#tbl_objectives_performance tr th, #tbl_objectives_performance tr td{
+    width: 10%;
+}
+#tbl_objectives_performance tr th:first-child, #tbl_objectives_performance tr td:first-child{
+    width: 60%;
 }
 
 

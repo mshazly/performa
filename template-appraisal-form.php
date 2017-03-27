@@ -88,92 +88,92 @@ get_header(); ?>
                         </thead>
                         <tbody>
                           <tr>
-                            <td colspan="3">
+                            <td>
                                 <div class="form-group">
-                                      <input type="text" id="tbl_txt_objective_1" name="tbl_txt_objective_1" class="form-control">
+                                      <input type="text" id="tbl_txt_objective_1" name="tbl_txt_objective_1" class="form-control" disabled>
                                 </div>
                             </td>
                             <td>
                                 <div class="form-group">
-                                      <input type="text" id="tbl_txt_weight_1" name="tbl_txt_weight_1" class="form-control">
+                                      <input type="text" id="tbl_txt_weight_1" name="tbl_txt_weight_1" class="form-control" value="35%" disabled>
                                 </div>
                             </td>
                             <td>
                                 <div class="form-group">
-                                      <input type="text" id="tbl_txt_progress_1" name="tbl_txt_progress_1" class="form-control">
+                                      <input type="text" id="tbl_txt_progress_1" name="tbl_txt_progress_1" class="form-control txt_progress" object_no="1">
                                 </div>
                             </td>
                             <td>
                                 <div class="form-group">
-                                      <input type="text" id="tbl_txt_performance_1" name="tbl_txt_performance_1" class="form-control">
+                                      <input type="text" id="tbl_txt_performance_1" name="tbl_txt_performance_1" class="form-control txt_performance">
                                 </div>
                             </td>
                             <td>
                                 <div class="form-group">
-                                      <input type="text" id="tbl_txt_weight_60_1" name="tbl_txt_weight_60_1" class="form-control">
+                                      <input type="text" id="tbl_txt_weight_60_1" name="tbl_txt_weight_60_1" class="form-control txt_weight_60">
                                 </div>
                             </td>
                           </tr>
                           <tr>
-                            <td colspan="3">
+                            <td>
                                 <div class="form-group">
-                                      <input type="text" id="tbl_txt_objective_2" name="tbl_txt_objective_2" class="form-control">
+                                    <input type="text" id="tbl_txt_objective_2" name="tbl_txt_objective_2" class="form-control" disabled>
                                 </div>
                             </td>
                             <td>
                                 <div class="form-group">
-                                      <input type="text" id="tbl_txt_weight_2" name="tbl_txt_weight_2" class="form-control">
+                                    <input type="text" id="tbl_txt_weight_2" name="tbl_txt_weight_2" class="form-control" value="35%" disabled>
                                 </div>
                             </td>
                             <td>
                                 <div class="form-group">
-                                      <input type="text" id="tbl_txt_progress_2" name="tbl_txt_progress_2" class="form-control">
+                                      <input type="text" id="tbl_txt_progress_2" name="tbl_txt_progress_2" class="form-control txt_progress" object_no="2">
                                 </div>
                             </td>
                             <td>
                                 <div class="form-group">
-                                      <input type="text" id="tbl_txt_performance_2" name="tbl_txt_performance_2" class="form-control">
+                                      <input type="text" id="tbl_txt_performance_2" name="tbl_txt_performance_2" class="form-control txt_performance">
                                 </div>
                             </td>
                             <td>
                                 <div class="form-group">
-                                      <input type="text" id="tbl_txt_weight_60_2" name="tbl_txt_weight_60_2" class="form-control">
+                                      <input type="text" id="tbl_txt_weight_60_2" name="tbl_txt_weight_60_2" class="form-control txt_weight_60">
                                 </div>
                             </td>
                           </tr>
                           <tr>
-                            <td colspan="3">
+                            <td>
                                 <div class="form-group">
-                                      <input type="text" id="tbl_txt_objective_3" name="tbl_txt_objective_3" class="form-control">
+                                      <input type="text" id="tbl_txt_objective_3" name="tbl_txt_objective_3" class="form-control" disabled>
                                 </div>
                             </td>
                             <td>
                                 <div class="form-group">
-                                      <input type="text" id="tbl_txt_weight_3" name="tbl_txt_weight_3" class="form-control">
+                                      <input type="text" id="tbl_txt_weight_3" name="tbl_txt_weight_3" class="form-control" value="30%" disabled>
                                 </div>
                             </td>
                             <td>
                                 <div class="form-group">
-                                      <input type="text" id="tbl_txt_progress_3" name="tbl_txt_progress_3" class="form-control">
+                                      <input type="text" id="tbl_txt_progress_3" name="tbl_txt_progress_3" class="form-control txt_progress" object_no="3">
                                 </div>
                             </td>
                             <td>
                                 <div class="form-group">
-                                      <input type="text" id="tbl_txt_performance_3" name="tbl_txt_performance_3" class="form-control">
+                                      <input type="text" id="tbl_txt_performance_3" name="tbl_txt_performance_3" class="form-control txt_performance">
                                 </div>
                             </td>
                             <td>
                                 <div class="form-group">
-                                      <input type="text" id="tbl_txt_weight_60_3" name="tbl_txt_weight_60_3" class="form-control">
+                                      <input type="text" id="tbl_txt_weight_60_3" name="tbl_txt_weight_60_3" class="form-control txt_weight_60">
                                 </div>
                             </td>
                           </tr>
                         </tbody>
                         <tfoot>
                             <tr>
-                                <td colspan="4">الاجمالى</td>
+                                <td>الاجمالى</td>
                                 <td>100%</td>
-                                <td id="total_objectives_performance" colspan="2"></td>
+                                <td colspan="2" id="total_objectives_performance" class="text-center"></td>
                                 <td id="total_total_objectives_performance_weight"></td>
                             </tr>
                         </tfoot>
@@ -206,27 +206,27 @@ get_header(); ?>
                               <td>مهارات الاتصال</td>
                               <td>
                                 <div class="form-group">
-                                      <input type="text" id="tbl_txt_comm_skils_weight" name="tbl_txt_comm_skils_weight" class="form-control">
+                                    <input type="text" id="tbl_txt_comm_skils_weight" name="tbl_txt_comm_skils_weight" class="form-control" value="20%" disabled>
                                 </div>
                               </td>
                               <td>
                                 <div class="form-group">
-                                      <input type="text" id="tbl_txt_comm_skils_level" name="tbl_txt_comm_skils_level" class="form-control">
+                                      <input type="text" id="tbl_txt_comm_skils_level" name="tbl_txt_comm_skils_level" class="form-control" value="3" disabled>
                                 </div>
                               </td>
                               <td>
                                 <div class="form-group">
-                                      <input type="text" id="tbl_txt_comm_skils_degree_100" name="tbl_txt_comm_skils_degree_100" class="form-control">
+                                      <input type="text" id="tbl_txt_comm_skils_degree_100" name="tbl_txt_comm_skils_degree_100" class="form-control comptencies_degree">
                                 </div>
                               </td>
                               <td>
                                 <div class="form-group">
-                                      <input type="text" id="tbl_txt_comm_skils_performance" name="tbl_txt_comm_skils_performance" class="form-control">
+                                      <input type="text" id="tbl_txt_comm_skils_performance" name="tbl_txt_comm_skils_performance" class="form-control comptencies_performance">
                                 </div>
                               </td>
                               <td>
                                 <div class="form-group">
-                                      <input type="text" id="tbl_txt_comm_skils_weight_40" name="tbl_txt_comm_skils_weight_40" class="form-control">
+                                      <input type="text" id="tbl_txt_comm_skils_weight_40" name="tbl_txt_comm_skils_weight_40" class="form-control comptencies_weight">
                                 </div>
                               </td>
                           </tr>
@@ -234,27 +234,27 @@ get_header(); ?>
                               <td>رضا العميل</td>
                               <td>
                                 <div class="form-group">
-                                      <input type="text" id="tbl_txt_client_satisfaction_weight" name="tbl_txt_client_satisfaction_weight" class="form-control">
+                                      <input type="text" id="tbl_txt_client_satisfaction_weight" name="tbl_txt_client_satisfaction_weight" class="form-control" value="20%" disabled>
                                 </div>
                               </td>
                               <td>
                                 <div class="form-group">
-                                      <input type="text" id="tbl_txt_client_satisfaction_level" name="tbl_txt_client_satisfaction_level" class="form-control">
+                                      <input type="text" id="tbl_txt_client_satisfaction_level" name="tbl_txt_client_satisfaction_level" class="form-control" value="2" disabled>
                                 </div>
                               </td>
                               <td>
                                 <div class="form-group">
-                                      <input type="text" id="tbl_txt_client_satisfaction_degree_100" name="tbl_txt_client_satisfaction_degree_100" class="form-control">
+                                      <input type="text" id="tbl_txt_client_satisfaction_degree_100" name="tbl_txt_client_satisfaction_degree_100" class="form-control comptencies_degree">
                                 </div>
                               </td>
                               <td>
                                 <div class="form-group">
-                                      <input type="text" id="tbl_txt_client_satisfaction_performance" name="tbl_txt_client_satisfaction_performance" class="form-control">
+                                      <input type="text" id="tbl_txt_client_satisfaction_performance" name="tbl_txt_client_satisfaction_performance" class="form-control comptencies_performance">
                                 </div>
                               </td>
                               <td>
                                 <div class="form-group">
-                                      <input type="text" id="tbl_txt_client_satisfaction_weight_40" name="tbl_txt_client_satisfaction_weight_40" class="form-control">
+                                      <input type="text" id="tbl_txt_client_satisfaction_weight_40" name="tbl_txt_client_satisfaction_weight_40" class="form-control comptencies_weight">
                                 </div>
                               </td>
                           </tr>
@@ -262,27 +262,27 @@ get_header(); ?>
                               <td>التركيز على النتائج</td>
                               <td>
                                 <div class="form-group">
-                                      <input type="text" id="tbl_txt_results_focus_weight" name="tbl_txt_results_focus_weight" class="form-control">
+                                      <input type="text" id="tbl_txt_results_focus_weight" name="tbl_txt_results_focus_weight" class="form-control" value="20%" disabled>
                                 </div>
                               </td>
                               <td>
                                 <div class="form-group">
-                                      <input type="text" id="tbl_txt_results_focus_level" name="tbl_txt_results_focus_level" class="form-control">
+                                      <input type="text" id="tbl_txt_results_focus_level" name="tbl_txt_results_focus_level" class="form-control" value="3" disabled>
                                 </div>
                               </td>
                               <td>
                                 <div class="form-group">
-                                      <input type="text" id="tbl_txt_results_focus_degree_100" name="tbl_txt_results_focus_degree_100" class="form-control">
+                                      <input type="text" id="tbl_txt_results_focus_degree_100" name="tbl_txt_results_focus_degree_100" class="form-control comptencies_degree">
                                 </div>
                               </td>
                               <td>
                                 <div class="form-group">
-                                      <input type="text" id="tbl_txt_results_focus_performance" name="tbl_txt_results_focus_performance" class="form-control">
+                                      <input type="text" id="tbl_txt_results_focus_performance" name="tbl_txt_results_focus_performance" class="form-control comptencies_performance">
                                 </div>
                               </td>
                               <td>
                                 <div class="form-group">
-                                      <input type="text" id="tbl_txt_results_focus_weight_40" name="tbl_txt_results_focus_weight_40" class="form-control">
+                                      <input type="text" id="tbl_txt_results_focus_weight_40" name="tbl_txt_results_focus_weight_40" class="form-control comptencies_weight">
                                 </div>
                               </td>
                           </tr>
