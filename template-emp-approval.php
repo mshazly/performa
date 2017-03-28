@@ -1,13 +1,10 @@
 <?php
-/*  Template Name: Appraisal Form */
+/*  Template Name: Empolyee Approval */
 get_header(); ?>
 
 <!-- content -->
 <div id="content" class="app-content box-shadow-z2 bg pjax-container" role="main">
     <div class="padding">
-
-        <form class="p-x-xs" name="frm_appraisal" id="frm_appraisal" method="POST">
-            <!--don't forget wp nonce here-->
             <div class="box">
                 <div class="box-header">
                     <h2>بيانات الموظف</h2>
@@ -15,17 +12,13 @@ get_header(); ?>
                 <div class="box-body">
                     <div class="row">
                             <div class="form-group col-md-6 col-sm-12">
-                                <label class="col-sm-2 form-control-label" for="txt_empname">الاسم</label>
-                                <div class="col-sm-10">
-                                  <input type="text" id="txt_empname" name="txt_empname" class="form-control"  value=" منصور أحمد عبد السلام " disabled>
-                                </div>
+                                <label class="col-sm-2 form-control-label">الاسم</label>
+                                <label class="col-sm-10 form-control-label">منصور أحمد عبد السلام</label>
                             </div>
 
                             <div class="form-group col-md-6 col-sm-12">
                                 <label class="col-sm-2 form-control-label" for="txt_prfm_no">رقم الاداء</label>
-                                <div class="col-sm-10">
-                                  <input type="text" id="txt_prfm_no" name="txt_prfm_no" class="form-control"  value="3324" disabled>
-                                </div>
+                                <label class="col-sm-10 form-control-label">3324</label>
                             </div>
 
                     </div>
@@ -33,31 +26,23 @@ get_header(); ?>
                     <div class="row">
                             <div class="form-group col-md-6 col-sm-12">
                                 <label class="col-sm-2 form-control-label" for="txt_emptitle">الوظيفة</label>
-                                <div class="col-sm-10">
-                                  <input type="text" id="txt_emptitle" name="txt_emptitle" class="form-control"  value="محاسب " disabled>
-                                </div>
+                                <label class="col-sm-10 form-control-label">محاسب</label>
                             </div>
                             <div class="form-group col-md-6 col-sm-12">
                                 <label class="col-sm-2 form-control-label" for="txt_directory">الادارة</label>
-                                <div class="col-sm-10">
-                                  <input type="text" id="txt_directory" name="txt_directory" class="form-control"  value="الحسابات" disabled>
-                                </div>
+                                <label class="col-sm-10 form-control-label">الحسابات</label>
                             </div>
                     </div>
 
                     <div class="row">
                             <div class="form-group col-md-6 col-sm-12">
                                 <label class="col-sm-2 form-control-label" for="txt_location">الموقع</label>
-                                <div class="col-sm-10">
-                                  <input type="text" id="txt_location" name="txt_location" class="form-control"   value="الشيخ زايد" disabled>
-                                </div>
+                                <label class="col-sm-10 form-control-label">الشيخ زايد</label>
                             </div>
 
                             <div class="form-group col-md-6 col-sm-12">
                                 <label class="col-sm-2 form-control-label" for="txt_appointment_date">تاريخ التعيين</label>
-                                <div class="col-sm-10">
-                                  <input type="text" id="txt_appointment_date" name="txt_appointment_date" class="form-control"  value="١٧ مارس ٢٠١٤ " disabled>
-                                </div>
+                                <label class="col-sm-10 form-control-label">١٧ مارس ٢٠١٤ </label>
                             </div>
                     </div>
                 </div>
