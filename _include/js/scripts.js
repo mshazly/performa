@@ -56,19 +56,19 @@ function handle_app_form($){
         }
     });
     
-    /*$('#tbl_behavior .behavior_degree').keyup(function(){
+    $('#tbl_behavior .behavior_performance').keyup(function(){
         var ele = $(this),
-            val = ele.val(),
+            val = parseInt(ele.val()),
             comp_no = ele.parent().parent().parent().attr('behavior_no'),
             parent_tr = $('#tbl_behavior tr[behavior_no='+comp_no+']');
-            
-        if($.trim(val) != ''){
-            val = getNumbers(val);
-            
+           //behavior_performance,behavior_weight 
+        if(val){
+            var behavior_weight = Math.round(val/((3*10)/100));
+            parent_tr.find('.behavior_weight').val(behavior_weight + ' %');
             calculate_total_behavior($);
         }
           
-    });*/
+    });
 }
 
 function calculate_total_objectives($){
@@ -92,6 +92,8 @@ function calculate_total_objectives($){
     });
     $('#total_objectives_performance').html(tot_performance+' %');
     $('#total_total_objectives_performance_weight').html(tot_weight_60+' %');
+    
+    caculate_total_weights($);
 }
 
 function calculate_total_comptencies($){
@@ -115,12 +117,14 @@ function calculate_total_comptencies($){
     });
     $('#total_comp_degree').html(tot_performance+' %');
     $('#total_comp_weight').html(tot_weight_30+' %');
+    
+    caculate_total_weights($);
 }
 
 function calculate_total_behavior($){
     var tot_performance = 0,
-        tot_weight_30 = 0;   
-    $('#tbl_behavior .comptencies_performance').each(function(){
+        tot_weight_10 = 0;   
+    $('#tbl_behavior .behavior_performance').each(function(){
         var this_val = $.trim($(this).val());
         if(this_val != ''){
             this_val = parseInt(getNumbers(this_val));
@@ -128,16 +132,40 @@ function calculate_total_behavior($){
         }
     });
     
-    $('#tbl_comptencies .comptencies_weight_30').each(function(){
+    $('#tbl_comptencies .behavior_weight').each(function(){
         var this_val = $.trim($(this).val());
         if(this_val != ''){
             this_val = parseInt(getNumbers(this_val));
-            tot_weight_30 += this_val;
+            tot_weight_10 += this_val;
         }
         
     });
-    $('#total_comp_degree').html(tot_performance+' %');
-    $('#total_comp_weight').html(tot_weight_30+' %');
+    $('#total_behavior_performance').html(tot_performance+' %');
+    $('#total_behavior_weight').html(tot_weight_10+' %');
+    
+    caculate_total_weights($);
+}
+
+
+function caculate_total_weights($){
+    var tot_weight_10 = parseInt($('#total_behavior_weight').html()),
+        tot_weight_30 = parseInt($('#total_comp_weight').html()),
+        tot_weight_60 = parseInt($('#total_total_objectives_performance_weight').html()),
+        total = 0;
+
+    if(tot_weight_10){
+        total += tot_weight_10;
+    }
+    
+    if(tot_weight_30){
+        total += tot_weight_30;
+    }
+    
+    if(tot_weight_60){
+        total += tot_weight_60;
+    }
+    
+    $('#total_weight').html(total + ' %');
 }
 
 function getNumbers(inputString){

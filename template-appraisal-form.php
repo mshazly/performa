@@ -485,7 +485,7 @@ get_header(); ?>
                             <td></td>
                             <td></td>
                             <td></td>
-                            <td id="total_performance"></td>
+                            <td id="total_weight"></td>
                           </tr>
                         </tbody>
 
