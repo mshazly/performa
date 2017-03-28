@@ -63,7 +63,7 @@ function handle_app_form($){
             parent_tr = $('#tbl_behavior tr[behavior_no='+comp_no+']');
            //behavior_performance,behavior_weight 
         if(val){
-            var behavior_weight = Math.round(val/((3*10)/100));
+            var behavior_weight = Math.round(val/(3*10));
             parent_tr.find('.behavior_weight').val(behavior_weight + ' %');
             calculate_total_behavior($);
         }
@@ -132,7 +132,7 @@ function calculate_total_behavior($){
         }
     });
     
-    $('#tbl_comptencies .behavior_weight').each(function(){
+    $('#tbl_behavior .behavior_weight').each(function(){
         var this_val = $.trim($(this).val());
         if(this_val != ''){
             this_val = parseInt(getNumbers(this_val));
