@@ -1,5 +1,5 @@
 <?php
-/*  Template Name: Empolyee Approval */
+/*  Template Name: Employee Approval */
 get_header(); ?>
 
 <!-- content -->
@@ -17,7 +17,7 @@ get_header(); ?>
                             </div>
 
                             <div class="form-group col-md-6 col-sm-12">
-                                <label class="col-sm-2 form-control-label" for="txt_prfm_no">رقم الاداء</label>
+                                <label class="col-sm-2 form-control-label" >رقم الاداء</label>
                                 <label class="col-sm-10 form-control-label">3324</label>
                             </div>
 
@@ -25,23 +25,23 @@ get_header(); ?>
 
                     <div class="row">
                             <div class="form-group col-md-6 col-sm-12">
-                                <label class="col-sm-2 form-control-label" for="txt_emptitle">الوظيفة</label>
+                                <label class="col-sm-2 form-control-label" >الوظيفة</label>
                                 <label class="col-sm-10 form-control-label">محاسب</label>
                             </div>
                             <div class="form-group col-md-6 col-sm-12">
-                                <label class="col-sm-2 form-control-label" for="txt_directory">الادارة</label>
+                                <label class="col-sm-2 form-control-label" >الادارة</label>
                                 <label class="col-sm-10 form-control-label">الحسابات</label>
                             </div>
                     </div>
 
                     <div class="row">
                             <div class="form-group col-md-6 col-sm-12">
-                                <label class="col-sm-2 form-control-label" for="txt_location">الموقع</label>
+                                <label class="col-sm-2 form-control-label">الموقع</label>
                                 <label class="col-sm-10 form-control-label">الشيخ زايد</label>
                             </div>
 
                             <div class="form-group col-md-6 col-sm-12">
-                                <label class="col-sm-2 form-control-label" for="txt_appointment_date">تاريخ التعيين</label>
+                                <label class="col-sm-2 form-control-label">تاريخ التعيين</label>
                                 <label class="col-sm-10 form-control-label">١٧ مارس ٢٠١٤ </label>
                             </div>
                     </div>
@@ -74,92 +74,66 @@ get_header(); ?>
                         <tbody>
                           <tr>
                             <td>
-                                <div class="form-group">
-                                      <input type="text" id="tbl_txt_objective_1" name="tbl_txt_objective_1" class="form-control" disabled>
-                                </div>
+                                <label class="form-control-label"></label>
                             </td>
                             <td>
-                                <div class="form-group">
-                                      <input type="text" id="tbl_txt_weight_1" name="tbl_txt_weight_1" class="form-control" value="35%" disabled>
-                                </div>
+                                <label class="form-control-label">35%</label>
                             </td>
                             <td>
-                                <div class="form-group">
-                                      <input type="text" id="tbl_txt_progress_1" name="tbl_txt_progress_1" class="form-control txt_progress" object_no="1">
-                                </div>
+                                <label class="form-control-label">85%</label>
                             </td>
                             <td>
-                                <div class="form-group">
-                                      <input type="text" id="tbl_txt_performance_1" name="tbl_txt_performance_1" class="form-control txt_performance">
-                                </div>
+                                <label class="form-control-label">30%</label>
                             </td>
                             <td>
-                                <div class="form-group">
-                                      <input type="text" id="tbl_txt_weight_60_1" name="tbl_txt_weight_60_1" class="form-control txt_weight_60">
-                                </div>
+                                <label class="form-control-label">18%</label>
                             </td>
                           </tr>
                           <tr>
                             <td>
-                                <div class="form-group">
-                                    <input type="text" id="tbl_txt_objective_2" name="tbl_txt_objective_2" class="form-control" disabled>
-                                </div>
+                                <label class="form-control-label"></label>
                             </td>
                             <td>
-                                <div class="form-group">
-                                    <input type="text" id="tbl_txt_weight_2" name="tbl_txt_weight_2" class="form-control" value="35%" disabled>
-                                </div>
+                                <label class="form-control-label">35%</label>
                             </td>
                             <td>
-                                <div class="form-group">
-                                      <input type="text" id="tbl_txt_progress_2" name="tbl_txt_progress_2" class="form-control txt_progress" object_no="2">
-                                </div>
+                                <label class="form-control-label">85%</label>
                             </td>
                             <td>
-                                <div class="form-group">
-                                      <input type="text" id="tbl_txt_performance_2" name="tbl_txt_performance_2" class="form-control txt_performance">
-                                </div>
+                                <label class="form-control-label">30%</label>
                             </td>
                             <td>
-                                <div class="form-group">
-                                      <input type="text" id="tbl_txt_weight_60_2" name="tbl_txt_weight_60_2" class="form-control txt_weight_60">
-                                </div>
+                                <label class="form-control-label">18%</label>
                             </td>
                           </tr>
                           <tr>
                             <td>
-                                <div class="form-group">
-                                      <input type="text" id="tbl_txt_objective_3" name="tbl_txt_objective_3" class="form-control" disabled>
-                                </div>
+                                <label class="form-control-label"></label>
                             </td>
                             <td>
-                                <div class="form-group">
-                                      <input type="text" id="tbl_txt_weight_3" name="tbl_txt_weight_3" class="form-control" value="30%" disabled>
-                                </div>
+                                <label class="form-control-label">30%</label>
                             </td>
                             <td>
-                                <div class="form-group">
-                                      <input type="text" id="tbl_txt_progress_3" name="tbl_txt_progress_3" class="form-control txt_progress" object_no="3">
-                                </div>
+                                <label class="form-control-label">94%</label>
                             </td>
                             <td>
-                                <div class="form-group">
-                                      <input type="text" id="tbl_txt_performance_3" name="tbl_txt_performance_3" class="form-control txt_performance">
-                                </div>
+                                <label class="form-control-label">28%</label>
                             </td>
                             <td>
-                                <div class="form-group">
-                                      <input type="text" id="tbl_txt_weight_60_3" name="tbl_txt_weight_60_3" class="form-control txt_weight_60">
-                                </div>
+                                <label class="form-control-label">17%</label>
                             </td>
                           </tr>
                         </tbody>
                         <tfoot>
                             <tr>
                                 <td>الاجمالى</td>
-                                <td>100%</td>
-                                <td colspan="2" id="total_objectives_performance" class="text-center"></td>
-                                <td id="total_total_objectives_performance_weight"></td>
+                                <td><label class="form-control-label">100%</label></td>
+                                <td colspan="2" class="text-center">
+                                    <label class="form-control-label">88%</label>
+                                </td>
+                                <td>
+                                    <label class="form-control-label">53%</label>
+                                </td>
                             </tr>
                         </tfoot>
                     </table>
@@ -174,7 +148,6 @@ get_header(); ?>
                     <table class="table table-bordered m-a-0" id="tbl_comptencies">
                         <thead>
                           <tr>
-                            <!--th>التصنيف</th-->
                             <th>الجدارة</th>
                             <th>الوزن</th>
                             <th>المستوى</th>
@@ -184,63 +157,40 @@ get_header(); ?>
                           </tr>
                         </thead>
                         <tbody>
-                          <!--tr>
-                            <td rowspan="4">جدارات رئيسية </td>
-                          </tr-->
                           <tr class="major_competencies" comp_no="1">
                               <td>مهارات الاتصال</td>
                               <td>
-                                <div class="form-group">
-                                    <input type="text" id="tbl_txt_comm_skils_weight" name="tbl_txt_comm_skils_weight" class="form-control comptencies_weight" value="20%" disabled>
-                                </div>
+                                <label class="form-control-label">20%</label>
                               </td>
                               <td>
-                                <div class="form-group">
-                                      <input type="text" id="tbl_txt_comm_skils_level" name="tbl_txt_comm_skils_level" class="form-control" value="3" disabled>
-                                </div>
+                                <label class="form-control-label">3</label>
                               </td>
                               <td>
-                                <div class="form-group">
-                                      <input type="text" id="tbl_txt_comm_skils_degree_100" name="tbl_txt_comm_skils_degree_100" class="form-control comptencies_degree">
-                                </div>
+                                <label class="form-control-label">90%</label>
                               </td>
                               <td>
-                                <div class="form-group">
-                                      <input type="text" id="tbl_txt_comm_skils_performance" name="tbl_txt_comm_skils_performance" class="form-control comptencies_performance">
-                                </div>
+                                <label class="form-control-label">18%</label>
                               </td>
                               <td>
-                                <div class="form-group">
-                                      <input type="text" id="tbl_txt_comm_skils_weight_30" name="tbl_txt_comm_skils_weight_30" class="form-control comptencies_weight_30">
-                                </div>
+                                <label class="form-control-label">5%</label>
                               </td>
                           </tr>
                           <tr class="major_competencies" comp_no="2">
                               <td>رضا العميل</td>
                               <td>
-                                <div class="form-group">
-                                      <input type="text" id="tbl_txt_client_satisfaction_weight" name="tbl_txt_client_satisfaction_weight" class="form-control comptencies_weight" value="20%" disabled>
-                                </div>
+                                <label class="form-control-label">20%</label>
                               </td>
                               <td>
-                                <div class="form-group">
-                                      <input type="text" id="tbl_txt_client_satisfaction_level" name="tbl_txt_client_satisfaction_level" class="form-control" value="2" disabled>
-                                </div>
+                                <label class="form-control-label">2</label>
                               </td>
                               <td>
-                                <div class="form-group">
-                                      <input type="text" id="tbl_txt_client_satisfaction_degree_100" name="tbl_txt_client_satisfaction_degree_100" class="form-control comptencies_degree" >
-                                </div>
+                                <label class="form-control-label">85%</label>
                               </td>
                               <td>
-                                <div class="form-group">
-                                      <input type="text" id="tbl_txt_client_satisfaction_performance" name="tbl_txt_client_satisfaction_performance" class="form-control comptencies_performance">
-                                </div>
+                                <label class="form-control-label">17%</label>
                               </td>
                               <td>
-                                <div class="form-group">
-                                      <input type="text" id="tbl_txt_client_satisfaction_weight_30" name="tbl_txt_client_satisfaction_weight_30" class="form-control comptencies_weight_30">
-                                </div>
+                                <label class="form-control-label">5%</label>
                               </td>
                           </tr>
                           <tr class="major_competencies" comp_no="3">

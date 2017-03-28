@@ -33,7 +33,7 @@
         <a href="index.html" class="navbar-brand">
         	<div data-ui-include="'<?php echo get_template_directory_uri(); ?>/_include/images/logo.svg'"></div>
         	<img src="<?php echo get_template_directory_uri(); ?>/_include/images/logo.png" alt="." class="hide">
-        	<span class="hidden-folded inline">aside</span>
+        	<span class="hidden-folded inline">Performa</span>
         </a>
         <!-- / brand -->
       </div>
@@ -58,14 +58,6 @@
                     <i class="ion-android-apps"></i>
                   </span>
                   <span class="nav-text">إدارة المجموعات</span>
-                </a>
-              </li>
-              <li>
-                <a href="app.inbox.html" class="b-info">
-                  <span class="nav-icon text-white no-fade">
-                    <i class="ion-email"></i>
-                  </span>
-                  <span class="nav-text">Inbox</span>
                 </a>
               </li>
               <li>
