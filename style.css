@@ -45,5 +45,12 @@ h1,h2,h3,h4,h5,h6{
     width: 60%;
 }
 
+#tbl_training tr th, #tbl_training tr td{
+    width: 50%;
+}
+#tbl_training .select2-selection{
+    width: 100% !important;
+}
+
 
 

@@ -464,7 +464,7 @@ get_header(); ?>
                         <tfoot>
                             <tr>
                                 <td>الاجمالى</td>
-                                <td></td>
+                                <!--td></td-->
                                 <td id="total_behavior_performance"></td>
                                 <td id="total_behavior_weight"></td>
                             </tr>
@@ -493,7 +493,7 @@ get_header(); ?>
                 </div>
             </div>
 
-            <div class="box">
+            <!--div class="box">
                 <div class="box-header">
                     <h2>التدريب : برجاء ذكر الاحتياجات التدريبية الفنية فقط وترتيبهم بالاهمية وترشيح مركز تدريبى ان وجد</h2>
                 </div>
@@ -528,7 +528,7 @@ get_header(); ?>
 
                     </table>
                 </div>
-          </div>
+          </div-->
             
           <div class="form-group col-md-12 text-right">
                 <button type="submit" class="btn btn-primary" name="btn-save-appraisal" id="btn-save-appraisal">حفظ</button>
