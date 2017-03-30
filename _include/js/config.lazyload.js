@@ -52,17 +52,17 @@ var MODULE_CONFIG = {
                       'libs/footable/css/footable.core.css'
                     ],
     sortable:       [
-                      'libs/html.sortable/dist/html.sortable.min.js'
+                      global_var.template_dir+'/_include/libs/html.sortable/dist/html.sortable.min.js'
                     ],
     nestable:       [
                       'libs/nestable/jquery.nestable.css',
                       'libs/nestable/jquery.nestable.js'
-                    ],
+                    ],*/
     summernote:     [
-                      'libs/summernote/dist/summernote.css',
-                      'libs/summernote/dist/summernote.js'
+                      global_var.template_dir+'/_include/libs/summernote/dist/summernote.css',
+                      global_var.template_dir+'/_include/libs/summernote/dist/summernote.js'
                     ],
-    parsley:        [
+    /*parsley:        [
                       'libs/parsleyjs/dist/parsley.css',
                       'libs/parsleyjs/dist/parsley.min.js'
                     ],*/

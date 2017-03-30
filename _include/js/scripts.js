@@ -5,6 +5,9 @@ jQuery(function($){
     if($('body').hasClass('page-template-template-appraisal-form')){
         handle_app_form($);
     }
+    if($('body').hasClass('page-template-template-employees-list')){
+        handle_employees_list($);
+    }
         
 });
 
@@ -178,4 +181,39 @@ function getNumbers(inputString){
     }
 
     return results;
+}
+
+function handle_employees_list($){
+    var $container = jQuery('#emp_list'),
+    filter = '*';
+        var isoTopOptn = {
+            filter: filter,
+            layoutMode: 'vertical',
+            originLeft: false,
+            animationOptions: {
+                duration: 750,
+                easing: 'linear',
+                queue: false
+            }
+        };
+    $container.isotope(isoTopOptn);
+    jQuery('#filter_by_letter a').click(function (e) {
+        e.preventDefault();
+        var selector = jQuery(this).attr('data-filter');
+        $container.isotope({ filter: selector });
+        jQuery('#filter_by_letter a').removeClass('active');
+        jQuery(this).addClass('active');
+        return false;
+    });
+    
+    jQuery('#filter_by_dept li').click(function (e) {
+        e.preventDefault();
+        var selector = jQuery(this).attr('data-filter');
+        $container.isotope({ filter: selector });
+        jQuery('#filter_by_dept li').removeClass('active');
+        jQuery(this).addClass('active');
+        return false;
+    });
+    
+    
 }
