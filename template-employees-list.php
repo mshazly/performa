@@ -171,36 +171,36 @@ get_header(); ?>
 									      	<div class="row-body scrollable hover">
 										      	<div class="row-inner">
 										      		<div class="text-center text-sm p-y-sm" id="filter_by_letter">
-														<a href="#" class="block text-muted active text-primary _600" data-filter="أ">أ</a>
-														<a href="#" class="block text-muted" data-filter="ب">ب</a>
-														<a href="#" class="block text-muted" data-filter="ت">ت</a>
-														<a href="#" class="block text-muted" data-filter="ث">ث</a>
-														<a href="#" class="block text-muted" data-filter="ج">ج</a>
-														<a href="#" class="block text-muted" data-filter="ح">ح</a>
-														<a href="#" class="block text-muted" data-filter="خ">خ</a>
+														<a href="#" class="block text-muted active text-primary _600" data-filter=".أ">أ</a>
+														<a href="#" class="block text-muted" data-filter=".ب">ب</a>
+														<a href="#" class="block text-muted" data-filter=".ت">ت</a>
+														<a href="#" class="block text-muted" data-filter=".ث">ث</a>
+														<a href="#" class="block text-muted" data-filter=".ج">ج</a>
+														<a href="#" class="block text-muted" data-filter=".ح">ح</a>
+														<a href="#" class="block text-muted" data-filter=".خ">خ</a>
 
-														<a href="#" class="block text-muted" data-filter="د">د</a>
-														<a href="#" class="block text-muted" data-filter="ذ">ذ</a>
-														<a href="#" class="block text-muted" data-filter="ر">ر</a>
-														<a href="#" class="block text-muted" data-filter="ز">ز</a>
-														<a href="#" class="block text-muted" data-filter="س">س</a>
-														<a href="#" class="block text-muted" data-filter="ش">ش</a>
-														<a href="#" class="block text-muted" data-filter="ص">ص</a>
+														<a href="#" class="block text-muted" data-filter=".د">د</a>
+														<a href="#" class="block text-muted" data-filter=".ذ">ذ</a>
+														<a href="#" class="block text-muted" data-filter=".ر">ر</a>
+														<a href="#" class="block text-muted" data-filter=".ز">ز</a>
+														<a href="#" class="block text-muted" data-filter=".س">س</a>
+														<a href="#" class="block text-muted" data-filter=".ش">ش</a>
+														<a href="#" class="block text-muted" data-filter=".ص">ص</a>
 
-														<a href="#" class="block text-muted" data-filter="ض">ض</a>
-														<a href="#" class="block text-muted" data-filter="ط">ط</a>
-														<a href="#" class="block text-muted" data-filter="ظ">ظ</a>
-														<a href="#" class="block text-muted" data-filter="ع">ع</a>
-														<a href="#" class="block text-muted" data-filter="غ">غ</a>
-														<a href="#" class="block text-muted" data-filter="ف">ف</a>
+														<a href="#" class="block text-muted" data-filter=".ض">ض</a>
+														<a href="#" class="block text-muted" data-filter=".ط">ط</a>
+														<a href="#" class="block text-muted" data-filter=".ظ">ظ</a>
+														<a href="#" class="block text-muted" data-filter=".ع">ع</a>
+														<a href="#" class="block text-muted" data-filter=".غ">غ</a>
+														<a href="#" class="block text-muted" data-filter=".ف">ف</a>
 
-														<a href="#" class="block text-muted" data-filter="ق">ق</a>
-														<a href="#" class="block text-muted" data-filter="ك">ك</a>
-														<a href="#" class="block text-muted" data-filter="ل">ل</a>
-														<a href="#" class="block text-muted" data-filter="م">م</a>
-														<a href="#" class="block text-muted" data-filter="ن">ن</a>
-														<a href="#" class="block text-muted" data-filter="و">و</a>
-                                                                                                                <a href="#" class="block text-muted" data-filter="ي">ي</a>
+														<a href="#" class="block text-muted" data-filter=".ق">ق</a>
+														<a href="#" class="block text-muted" data-filter=".ك">ك</a>
+														<a href="#" class="block text-muted" data-filter=".ل">ل</a>
+														<a href="#" class="block text-muted" data-filter=".م">م</a>
+														<a href="#" class="block text-muted" data-filter=".ن">ن</a>
+														<a href="#" class="block text-muted" data-filter=".و">و</a>
+                                                                                                                <a href="#" class="block text-muted" data-filter=".ي">ي</a>
 													</div>
 												</div>
 											</div>

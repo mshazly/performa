@@ -45,7 +45,8 @@
 
     // blockui
     if ($.blockUI) {
-      $(document).on('click', '#subnav .navside a, #subnav .item-title', function() { 
+        //#subnav .navside a,
+      $(document).on('click', '#subnav .item-title', function() { 
           $('#list').block({
             message: '<i class="fa fa-lg fa-refresh fa-spin"></i>' ,
             css: {
@@ -59,7 +60,7 @@
           }); 
       });
 
-      $(document).on('click', '#list .item-title', function() { 
+      /*$(document).on('click', '#list .item-title', function() { 
           $('#detail').block({
             message: '<i class="fa fa-lg fa-refresh fa-spin"></i>' ,
             css: {
@@ -71,6 +72,25 @@
             },
             timeout: 1000
           }); 
+      });*/
+    
+    
+     $(document).on('click', '#emp_list .item-title', function() { 
+         var blk_id = $(this).parent().parent().attr('data-ui-list-target');
+         if(blk_id){
+             $(blk_id).block({
+                message: '<i class="fa fa-lg fa-refresh fa-spin"></i>' ,
+                css: {
+                  border: 'none', 
+                  backgroundColor: 'transparent',
+                  color: '#fff',
+                  padding: '30px',
+                  width: '100%'
+                },
+                timeout: 1000
+              }); 
+         }
+          
       });
     }
 
