@@ -57,7 +57,8 @@ get_header(); ?>
 			          	<span class="navbar-item text-md">بيانات العاملين </span>
 			        </li>
 			        <li class="nav-item">
-				        <a class="nav-link text-muted" data-toggle="modal" data-target="#modal-new" title="Reply">
+				        <!--a class="nav-link text-muted" data-toggle="modal" data-target="#modal-new" title="Reply"-->
+                                        <a class="nav-link text-muted" href="https://performa.noshor.com/add-new-employee/" title="Reply">
 				            <span class="">
 				            	<i class="fa fa-fw fa-plus"></i>
 				            	<span class="hidden-sm-down">إضافة عامل جديد</span>
