@@ -39,11 +39,8 @@
       </div>
       <div data-flex class="hide-scroll">
           <nav class="scroll nav-stacked nav-stacked-rounded nav-color">
-
-            <ul class="nav" data-ui-nav>
-              <!--li class="nav-header hidden-folded">
-                <span class="text-xs">Main</span>
-              </li-->
+              <?php echo get_main_menu(); ?>
+            <!--ul class="nav" data-ui-nav>
               <li>
                 <a href="dashboard.html" class="b-danger">
                   <span class="nav-icon text-white no-fade">
@@ -82,7 +79,7 @@
 
 
 
-            </ul>
+            </ul-->
           </nav>
       </div>
 

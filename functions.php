@@ -53,4 +53,77 @@ function performa_scripts() {
 
 add_action( 'wp_enqueue_scripts', 'performa_scripts' );
 
+/*-----------------------------------------------------------------------------------*/
+/*	Theme Setup
+/*-----------------------------------------------------------------------------------*/
+
+if ( !function_exists( 'az_theme_setup' ) ) {
+	function az_theme_setup(){
+		// Load Translation Domain
+		//load_theme_textdomain(AZ_THEME_NAME, get_template_directory() . '/languages');
+
+		// Remove Generator for Security
+		remove_action( 'wp_head', 'wp_generator' );
+
+                // Add Support for Post Formats
+		add_theme_support('post-formats', array('quote','video','audio', 'image', 'gallery','link'));
+
+                // Configure Thumbnails
+		add_theme_support('post-thumbnails');
+
+		// Register Menus
+		register_nav_menus(array('primary_menu' => __( 'Primary Menu' )));
+                
+                /*$user_role = add_role(
+                    'investor',
+                    __( 'Investor' ),
+                    array(
+                        'read'         => TRUE,  
+                        'edit_posts'   => FALSE,
+                        'delete_posts' => FALSE, 
+                    )
+                );
+                
+                
+                if( current_user_can('subscriber') || current_user_can('investor') ):
+                    show_admin_bar(false);
+                endif;*/
+                
+                update_option( 'image_default_align', 'none' );
+                //update_option( 'image_default_link_type', 'none' );
+                update_option( 'image_default_size', 'full' );
+
+	}
+}
+add_action('after_setup_theme', 'az_theme_setup');
+
+function get_main_menu($post_id){
+				$primary_nav = wp_get_nav_menu_items('Primary Menu');
+				$primary_nav_beef = NULL;
+				$beef_count = 0;
+                                if(empty($post_id)):
+                                    global $post;
+                                    $post_id = $post->ID;
+                                endif;
+				foreach($primary_nav as $primary_item):
+                                    $beef_count ++;
+                                    $menuclass = $actv_html = '';
+                                    if($post_id == $primary_item->object_id):
+                                        $menuclass = 'current';
+                                        $actv_html = '<span class="nav-label">
+                                                        <b class="label label-xs rounded danger"></b>
+                                                      </span>';
+                                    endif;
+                                                   //<i class='ion-filing'></i>
+                                    $primary_nav_beef .= "<li><a href=". $primary_item->url ." class='b-default ".$menuclass."'>"
+                                                            .$actv_html
+                                                            ."<span class='nav-icon'><i class='ion-filing'></i></span>"
+                                                            . "<span>". $primary_item->title ."</span></a></li>";
+				endforeach;
+
+				echo "<ul class='nav' data-ui-nav >" . $primary_nav_beef . "</ul>";
+
+	
+}
+
 ?>

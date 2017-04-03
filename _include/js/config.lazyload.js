@@ -87,11 +87,11 @@ var MODULE_CONFIG = {
                       'libs/fullcalendar/dist/fullcalendar.css',
                       'libs/fullcalendar/dist/fullcalendar.theme.css',
                       'scripts/plugins/calendar.js'
-                    ],
+                    ],*/
     dropzone:       [
-                      'libs/dropzone/dist/min/dropzone.min.js',
-                      'libs/dropzone/dist/min/dropzone.min.css'
-                    ]*/
+                      global_var.template_dir+'/_include/libs/dropzone/dist/min/dropzone.min.js',
+                      global_var.template_dir+'/_include/libs/dropzone/dist/min/dropzone.min.css'
+                    ]
   };
   
 // jQuery plugin default options
