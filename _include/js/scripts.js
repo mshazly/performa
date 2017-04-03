@@ -240,6 +240,26 @@ function handle_employees_list($){
         return false;
     });
     
+    jQuery('.appraisal_done_lnk').click(function (e) {
+        e.preventDefault();
+        $('#list').block({
+            message: '<i class="fa fa-lg fa-refresh fa-spin"></i>' ,
+            css: {
+              border: 'none', 
+              backgroundColor: 'transparent',
+              color: '#fff',
+              padding: '30px',
+              width: '100%'
+            },
+            timeout: 1000
+          });
+        var selector = jQuery(this).attr('data-filter');
+        $container.isotope({ filter: selector });
+        jQuery(this).removeClass('active');
+        jQuery(this).addClass('active');
+        return false;
+    });
+    
      
     
     

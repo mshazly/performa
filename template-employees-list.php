@@ -65,6 +65,16 @@ get_header(); ?>
 				            </span>
 				        </a>
 			        </li>
+                                
+                                <li class="nav-item appraisal_done_lnk" data-filter=".appraisal_done">
+				        <!--a class="nav-link text-muted" data-toggle="modal" data-target="#modal-new" title="Reply"-->
+                                        <a class="nav-link text-muted" href="#" title="Reply">
+				            <span class="">
+				            	<i class="fa fa-fw fa-filter"></i>
+				            	<span class="hidden-sm-down">العاملين الذين تم تقييمهم</span>
+				            </span>
+				        </a>
+			        </li>
 			    </ul>
 			    <!-- / link and dropdown -->
 			</div>
@@ -217,7 +227,7 @@ get_header(); ?>
 										      	<div class="row-inner">
 										      		<!-- left content -->
 										      		<div id="emp_list" class="list" >
-										      			    <div class="list-item col-md-12 dept3 م" data-ui-list="b-r b-3x b-primary" data-ui-list-target="#detail_1" data-ui-list-target-class="show">
+										      			    <div class="list-item col-md-12 appraisal_done dept3 م" data-ui-list="b-r b-3x b-primary" data-ui-list-target="#detail_1" data-ui-list-target-class="show">
 										      			      <div class="list-left">
 										      			        <img src="https://performa.noshor.com/wp-content/themes/performa/_include/images/placeholder-m.png" class="w-40 avatar circle">
 										      			      </div>
@@ -340,7 +350,7 @@ get_header(); ?>
 										      			      </div>
 										      			    </div>
                                                                                                     
-                                                                                                    <div class="list-item col-md-12 dept1 ع">
+                                                                                                    <div class="list-item col-md-12 appraisal_done dept1 ع">
 										      			      <div class="list-left">
 										      			        <span class="w-40 avatar circle primary">
 										      			            

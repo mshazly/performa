@@ -43,7 +43,7 @@ function performa_scripts() {
     
     wp_enqueue_script('isotope-js', get_template_directory_uri() . '/_include/libs/isotope/isotope.pkgd.min.js', 'jquery', '1.0', TRUE);
     
-    wp_enqueue_script('scripts-js', get_template_directory_uri() . '/_include/js/scripts.js', 'isotope-js', '1.3', TRUE);
+    wp_enqueue_script('scripts-js', get_template_directory_uri() . '/_include/js/scripts.js', 'isotope-js', '1.4', TRUE);
   
     
     /*  
