@@ -254,11 +254,11 @@ get_header(); ?>
 										      			          <div class="pull-right dropdown">
 										      			            <a href="#" data-toggle="dropdown" class="text-muted"><i class="fa fa-fw fa-ellipsis-v"></i></a>
 										      			            <div class="dropdown-menu pull-right text-color" role="menu">
-										      			              <a class="dropdown-item">
+										      			              <a class="dropdown-item" href="https://performa.noshor.com/profile/">
 										      			              	<i class="fa fa-eye"></i>
 										      			              	بيانات الموظف
 										      			              </a>
-										      			              <a class="dropdown-item">
+										      			              <a class="dropdown-item" href="https://performa.noshor.com/profile-update/">
 										      			              	<i class="fa fa-pencil"></i>
 										      			              	تعديل
 										      			              </a>
@@ -623,7 +623,9 @@ get_header(); ?>
 						      	<div class="row-inner">
 							      	<!-- content -->
 							      	<div class="p-a-lg text-center">
-                                                                    <img src="https://performa.noshor.com/wp-content/themes/performa/_include/images/placeholder-m.png" class="w-128 circle animated rollIn" alt=".">
+                                                                    <a href="https://performa.noshor.com/profile/">
+                                                                    <img src="https://performa.noshor.com/wp-content/themes/performa/_include/images/placeholder-m.png" class="w-128 circle animated rollIn" alt="." style="height: 128px;">
+                                                                    </a>
 							      		<div class="animated fadeInUp">
 								      		<div>
 									      		<span class="text-md m-t block">محمد عبيد محمد عبيد </span>
@@ -677,7 +679,7 @@ get_header(); ?>
 					            	مسح
 					            </a>
 					        </div>
-					      	<a href="#" class="btn btn-xs primary rounded">
+					      	<a href="https://performa.noshor.com/profile-update/" class="btn btn-xs primary rounded">
 				            	<i class="fa fa-pencil m-r-xs"></i>
 				            	تعديل
 				            </a>

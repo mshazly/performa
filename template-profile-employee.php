@@ -45,14 +45,14 @@ get_header(); ?>
 <!-- ############ PAGE START-->
 
   <div class="item">
-    <div class="item-bg primary">
+    <div class="item-bg" style="background-color:#f6fafb;">
       
     </div>
     <div class="p-a-md">
       <div class="row m-t">
         <div class="col-sm-12">
           <a href="#" class="pull-left m-r-md">
-              <span class="avatar w-96 rounded " style="background-color:#fff; height:96px;">
+              <span class="avatar w-96 rounded primary" style="height:96px;">
             </span>
           </a>
           <div class="clear m-b">

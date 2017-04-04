@@ -1,5 +1,5 @@
 <?php
-/*  Template Name: Add New Employee */
+/*  Template Name: Profile Update */
 get_header(); ?>
 
 
@@ -11,7 +11,7 @@ get_header(); ?>
                 <a data-toggle="modal" data-target="#aside" class="navbar-item pull-left hidden-lg-up p-r m-a-0">
                   <i class="ion-navicon"></i>
                 </a>
-                <div class="navbar-item pull-left h5" id="pageTitle">إضافة عامل جديد</div>
+                <div class="navbar-item pull-left h5" id="pageTitle">تعديل الملف الشخصي</div>
                 <!-- nabar right -->
                 <ul class="nav navbar-nav pull-right">
                   <li class="nav-item dropdown pos-stc-xs">
@@ -61,14 +61,14 @@ get_header(); ?>
                                                                     <div class="form-group col-md-12">
                                                                         <label class="col-sm-2 form-control-label" for="txt_empname">الاسم</label>
                                                                         <div class="col-sm-10">
-                                                                          <input type="text" id="txt_empname" name="txt_empname" class="form-control" >
+                                                                          <input type="text" id="txt_empname" name="txt_empname" class="form-control" value="محمد عبيد محمد عبيد">
                                                                         </div>
                                                                     </div>
 
                                                                     <div class="form-group col-md-12">
                                                                         <label class="col-sm-2 form-control-label" for="txt_prfm_no">رقم الاداء</label>
                                                                         <div class="col-sm-10">
-                                                                          <input type="text" id="txt_prfm_no" name="txt_prfm_no" class="form-control" >
+                                                                          <input type="text" id="txt_prfm_no" name="txt_prfm_no" class="form-control" value="114">
                                                                         </div>
                                                                     </div>
 
@@ -78,13 +78,13 @@ get_header(); ?>
                                                                     <div class="form-group col-md-12">
                                                                         <label class="col-sm-2 form-control-label" for="txt_emptitle">الوظيفة</label>
                                                                         <div class="col-sm-10">
-                                                                          <input type="text" id="txt_emptitle" name="txt_emptitle" class="form-control" >
+                                                                          <input type="text" id="txt_emptitle" name="txt_emptitle" class="form-control" value="مشرف ادارى">
                                                                         </div>
                                                                     </div>
                                                                     <div class="form-group col-md-12">
                                                                         <label class="col-sm-2 form-control-label" for="txt_directory">الادارة</label>
                                                                         <div class="col-sm-10">
-                                                                          <input type="text" id="txt_directory" name="txt_directory" class="form-control">
+                                                                          <input type="text" id="txt_directory" name="txt_directory" class="form-control" value="ادارة الموارد البشريه ">
                                                                         </div>
                                                                     </div>
                                                             </div>
@@ -93,14 +93,14 @@ get_header(); ?>
                                                                     <div class="form-group col-md-12">
                                                                         <label class="col-sm-2 form-control-label" for="txt_location">الموقع</label>
                                                                         <div class="col-sm-10">
-                                                                          <input type="text" id="txt_location" name="txt_location" class="form-control"  >
+                                                                          <input type="text" id="txt_location" name="txt_location" class="form-control"  value="المنطقه الصناعيه 6 أكتوبر">
                                                                         </div>
                                                                     </div>
 
                                                                     <div class="form-group col-md-12">
                                                                         <label class="col-sm-2 form-control-label" for="txt_appointment_date">تاريخ التعيين</label>
                                                                         <div class="col-sm-10">
-                                                                          <input type="text" id="txt_appointment_date" name="txt_appointment_date" class="form-control" >
+                                                                          <input type="text" id="txt_appointment_date" name="txt_appointment_date" class="form-control" value="2011-07-01">
                                                                         </div>
                                                                     </div>
                                                             </div>
@@ -109,8 +109,9 @@ get_header(); ?>
                                                         <div class="col-md-6 text-center col-sm-12">
                                                             <div class="form-group col-md-12">
                                                                 <a href="#" data-toggle="modal" data-target="#modal-upload-emp-name" >
-                                                                    <span class="avatar w circle primary" style="height: 200px;">
-                                                                      <p class="text-center">أضف صورة الموظف</p>
+                                                                    <span class="avatar w " style="height: 200px;">
+                                                                        <img src="<?php echo get_template_directory_uri(); ?>/_include/images/placeholder-m.png" style="height: 200px;">
+                                                                      <p class="text-center">تعديل الصوره</p>
                                                                     </span>
                                                                 </a>
                                                             </div>

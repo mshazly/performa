@@ -52,6 +52,12 @@ h1,h2,h3,h4,h5,h6{
     width: 100% !important;
 }
 
+.app-header .navbar .navbar-item, 
+.navbar-brand span.hidden-folded, 
+.page-template-template-employees-list .app-body-inner .navbar-nav span.navbar-item{
+    font-family: 'Cairo', sans-serif;
+}
+
 
 .page-template-template-login #aside, .page-template-template-login .app-header{
     display:none !important;

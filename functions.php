@@ -12,7 +12,7 @@ add_action('init', 'jquery_cdn');
 
 function performa_scripts() {
 
-    wp_enqueue_style( 'main-style', get_template_directory_uri() . '/style.css', '1.4' );
+    wp_enqueue_style( 'main-style', get_template_directory_uri() . '/style.css', '1.5' );
     
     
     wp_enqueue_script('tether', get_template_directory_uri() . '/_include/libs/tether/dist/js/tether.min.js', 'jquery', '1.0', TRUE);
@@ -110,9 +110,9 @@ function get_main_menu($post_id){
                                     $menuclass = $actv_html = '';
                                     if($post_id == $primary_item->object_id):
                                         $menuclass = 'current';
-                                        $actv_html = '<span class="nav-label">
+                                        /*$actv_html = '<span class="nav-label">
                                                         <b class="label label-xs rounded danger"></b>
-                                                      </span>';
+                                                      </span>';*/
                                     endif;
                                                    //<i class='ion-filing'></i>
                                     $primary_nav_beef .= "<li><a href=". $primary_item->url ." class='b-default ".$menuclass."'>"

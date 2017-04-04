@@ -11,6 +11,16 @@ get_header(); ?>
                   <i class="ion-navicon"></i>
                 </a>
                 <div class="navbar-item pull-left h5" id="pageTitle">الملف الشخصي</div>
+                <ul class="nav navbar-nav pull-left">
+                  <li class="nav-item dropdown pos-stc-xs">
+                    <a class="nav-link"  href="https://performa.noshor.com/profile-update/">
+                      <span class="">
+				            	<i class="fa fa-fw fa-pencil"></i>
+				            	<span class="hidden-sm-down">تعديل</span>
+				            </span>
+                    </a>
+                  </li>
+                </ul>
                 <!-- nabar right -->
                 <ul class="nav navbar-nav pull-right">
                   <li class="nav-item dropdown pos-stc-xs">
@@ -45,15 +55,15 @@ get_header(); ?>
 <!-- ############ PAGE START-->
 
   <div class="item">
-    <div class="item-bg">
-      <img src="<?php echo get_template_directory_uri(); ?>/_include/images/placeholder-m.png" class="blur opacity-3">
+    <div class="item-bg" style="background-color:#f6fafb;">
+      <!--img src="<?php echo get_template_directory_uri(); ?>/_include/images/placeholder-m.png" class="blur opacity-3"-->
     </div>
     <div class="p-a-md">
       <div class="row m-t">
         <div class="col-sm-7">
           <a href="#" class="pull-left m-r-md">
             <span class="avatar w-96">
-              <img src="<?php echo get_template_directory_uri(); ?>/_include/images/placeholder-m.png">
+                <img src="<?php echo get_template_directory_uri(); ?>/_include/images/placeholder-m.png" style="height:96px;">
             </span>
           </a>
           <div class="clear m-b">
@@ -77,7 +87,7 @@ get_header(); ?>
         <div class="p-y-md clearfix nav-active-info">
           <ul class="nav nav-pills nav-sm">
             <li class="nav-item active">
-              <a class="nav-link" href="#" data-toggle="tab" data-target="#tab_1">الأحداث</a>
+              <a class="nav-link" href="#" data-toggle="tab" data-target="#tab_1">التحديثات</a>
             </li>
           </ul>
         </div>
@@ -111,7 +121,7 @@ get_header(); ?>
               <div class="sl-item">
                 <div class="sl-content">
                   <div>
-                    <p>إضافة حدث جديد</p>
+                    <p>إضافة تحديث جديد</p>
                   </div>
                   <!--div class="sl-footer">
                     <a href="#" data-ui-toggle-class class="btn white btn-xs">
@@ -146,7 +156,7 @@ get_header(); ?>
         <div>
           <div class="box">
               <div class="box-header">
-                <h3>في نفس الإداره</h3>
+                <h3>في نفس الإدارة</h3>
               </div>
               <div class="box-divider m-a-0"></div>
               <ul class="list no-border p-b">
