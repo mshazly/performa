@@ -2,7 +2,7 @@
 <html <?php language_attributes(); ?>>
 <head>
   <meta charset="utf-8" />
-  <title><?php wp_title('|',true,'right'); ?></title>
+  <title><?php wp_title('|',true,'right'); bloginfo('name'); ?></title>
   <!--meta name="description" content="" /-->
   <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui" />

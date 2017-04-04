@@ -12,7 +12,7 @@ add_action('init', 'jquery_cdn');
 
 function performa_scripts() {
 
-    wp_enqueue_style( 'main-style', get_template_directory_uri() . '/style.css', '1.3' );
+    wp_enqueue_style( 'main-style', get_template_directory_uri() . '/style.css', '1.4' );
     
     
     wp_enqueue_script('tether', get_template_directory_uri() . '/_include/libs/tether/dist/js/tether.min.js', 'jquery', '1.0', TRUE);

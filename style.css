@@ -53,4 +53,9 @@ h1,h2,h3,h4,h5,h6{
 }
 
 
+.page-template-template-login #aside, .page-template-template-login .app-header{
+    display:none !important;
+}
+
+
 

@@ -89,7 +89,7 @@ get_header(); ?>
               <div class="sl-item b-danger">
                 <div class="sl-content">
                   <p>تم التقييم و لم يتم القبول بعد</p>
-                  <p><a href="<?php bloginfo('url')?>/employee-approval/" class="text-info">اطغط هنا لمراجعة التقييم</a></p>
+                  <p><a href="<?php bloginfo('url')?>/employee-approval/" class="text-info">اضغط هنا لمراجعة التقييم</a></p>
                 </div>
               </div>
               
