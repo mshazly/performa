@@ -10,7 +10,7 @@ get_header(); ?>
     <div class="navbar">
       <div class="pull-center">
         <!-- brand -->
-        <a href="index.html" class="navbar-brand">
+        <a href="<?php bloginfo('url')?>" class="navbar-brand">
         	<div data-ui-include="'<?php echo get_template_directory_uri(); ?>/_include/images/logo.svg'"></div>
         	<img src="<?php echo get_template_directory_uri(); ?>/_include/images/logo.png" alt="." class="hide">
         	<span class="hidden-folded inline"><?php bloginfo('name'); ?></span>
@@ -22,7 +22,7 @@ get_header(); ?>
   <div class="b-t">
     <div class="center-block w-xxl w-auto-xs p-y-md text-center">
       <div class="p-a-md">
-        <form name="form" action="">
+        <form name="form" action="<?php bloginfo('url')?>">
           <div class="form-group">
             <input type="email" class="form-control" placeholder="إسم المستخدم" required>
           </div>
