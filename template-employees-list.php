@@ -75,6 +75,25 @@ get_header(); ?>
 				            </span>
 				        </a>
 			        </li>
+                                <li class="nav-item dropdown pos-stc-xs pull-right">
+                                        <a class="nav-link" data-toggle="dropdown">
+                                          <i class="ion-android-search w-24"></i>
+                                        </a>
+                                        <div class="dropdown-menu text-color w-md animated fadeInUp pull-right">
+                                          <!-- search form -->
+                                          <form class="navbar-form form-inline navbar-item m-a-0 p-x v-m" role="search">
+                                            <div class="form-group l-h m-a-0">
+                                              <div class="input-group">
+                                                <input type="text" class="form-control" placeholder="إبحث عن موظف...">
+                                                <span class="input-group-btn">
+                                                  <button type="submit" class="btn white b-a no-shadow"><i class="fa fa-search"></i></button>
+                                                </span>
+                                              </div>
+                                            </div>
+                                          </form>
+                                          <!-- / search form -->
+                                        </div>
+                                </li>
 			    </ul>
 			    <!-- / link and dropdown -->
 			</div>

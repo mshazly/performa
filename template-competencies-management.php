@@ -6,23 +6,44 @@ get_header(); ?>
    <!-- content -->
   <div id="content" class="app-content box-shadow-z2 pjax-container" role="main">
     
+      <div class="app-header white bg b-b">
+          <div class="navbar" data-pjax>
+                <a data-toggle="modal" data-target="#aside" class="navbar-item pull-left hidden-lg-up p-r m-a-0">
+                  <i class="ion-navicon"></i>
+                </a>
+                <div class="navbar-item pull-left h5" id="pageTitle">إدارة الجدارات</div>
+                <!-- nabar right -->
+                <ul class="nav navbar-nav pull-right">
+                  <li class="nav-item dropdown pos-stc-xs">
+                    <a class="nav-link" data-toggle="dropdown">
+                      <i class="ion-android-search w-24"></i>
+                    </a>
+                    <div class="dropdown-menu text-color w-md animated fadeInUp pull-right">
+                      <!-- search form -->
+                      <form class="navbar-form form-inline navbar-item m-a-0 p-x v-m" role="search">
+                        <div class="form-group l-h m-a-0">
+                          <div class="input-group">
+                            <input type="text" class="form-control" placeholder="إبحث عن موظف...">
+                            <span class="input-group-btn">
+                              <button type="submit" class="btn white b-a no-shadow"><i class="fa fa-search"></i></button>
+                            </span>
+                          </div>
+                        </div>
+                      </form>
+                      <!-- / search form -->
+                    </div>
+                  </li>
+                </ul>
+                <!-- / navbar right -->
+          </div>
+    </div>
+      
     <div class="app-body">
 
 <!-- ############ PAGE START-->
 
 <div class="app-body-inner">
 	<div class="row-col">
-		<div class="white bg b-b">
-			<div class="navbar no-radius box-shadow-z1">
-				
-			    <ul class="nav navbar-nav">
-			        <li class="nav-item">
-			          	<span class="navbar-item text-md">إدارة الجدارات</span>
-			        </li>
-			    </ul>
-			    
-			</div>
-		</div>
 		<div class="row-row">
 			<div class="row-col">
 				<div class="col-xs b-r">
@@ -85,11 +106,20 @@ get_header(); ?>
                                                                     <div class="form-group col-md-6">
                                                                           <select id="sel_compet" name="sel_compet" class="form-control" >
                                                                               <option value="">اختر الجداره</option>
+                                                                              <option value="1">مهارات الاتصال</option>
+                                                                              <option value="2">رضا العميل</option>
+                                                                              <option value="3">التركيز على النتائج</option>
+                                                                              <option value="4">جدارات القيادة</option>
+                                                                              <option value="5">الجدارات الفنية</option>
                                                                           </select>
                                                                     </div>
                                                                     <div class="form-group col-md-6">
                                                                           <select id="sel_dept" name="sel_dept" class="form-control" >
                                                                               <option value="">اختر القسم/الإداره</option>
+                                                                              <option value="1">ادارة التسويق والاتصالات</option>
+                                                                              <option value="2">ادارة الشئون التجاريه</option>
+                                                                              <option value="1">ادارة الموارد البشريه</option>
+                                                                              <option value="1">ادارة شئون العاملين </option>
                                                                           </select>
                                                                     </div>
                                                             </div>
@@ -101,15 +131,15 @@ get_header(); ?>
                                                                         <label class="md-check">
                                                                           <input type="checkbox">
                                                                           <i class="indigo"></i>
-                                                                          Checkbox
+                                                                          نائب مدير عام
                                                                         </label>
                                                                       </p>
                                                                       
                                                                       <p>
                                                                         <label class="md-check">
                                                                           <input type="checkbox" checked="">
-                                                                          <i class="blue"></i>
-                                                                          Checkbox: checked
+                                                                          <i class="indigo"></i>
+                                                                          مدير اداره 
                                                                         </label>
                                                                       </p>
                                                                       
@@ -118,8 +148,8 @@ get_header(); ?>
                                                                       <p>
                                                                         <label class="md-check">
                                                                           <input type="checkbox" checked="">
-                                                                          <i class="blue"></i>
-                                                                          Checkbox: checked
+                                                                          <i class="indigo"></i>
+                                                                          نائب مدير
                                                                         </label>
                                                                       </p>
                                                                       
@@ -127,7 +157,7 @@ get_header(); ?>
                                                                         <label class="md-check">
                                                                           <input type="checkbox">
                                                                           <i class="indigo"></i>
-                                                                          Checkbox
+                                                                          رئيس قسم
                                                                         </label>
                                                                       </p>
                                                                           
@@ -138,7 +168,7 @@ get_header(); ?>
                                                                         <label class="md-check">
                                                                           <input type="checkbox">
                                                                           <i class="indigo"></i>
-                                                                          Checkbox
+                                                                          مساعد رئيس قسم
                                                                         </label>
                                                                       </p>
                                                                       
@@ -146,7 +176,7 @@ get_header(); ?>
                                                                         <label class="md-check">
                                                                           <input type="checkbox">
                                                                           <i class="indigo"></i>
-                                                                          Checkbox
+                                                                          محاسب
                                                                         </label>
                                                                       </p>
                                                                           
@@ -171,6 +201,12 @@ get_header(); ?>
 
 
     </div>
+  
+  <div class="app-footer white bg p-a b-t">
+      <div class="pull-right text-sm text-muted">Version 1.0.1</div>
+      <span class="text-sm text-muted">&copy; Copyright.</span>
+    </div>
+  
   </div>
   <!-- / --> 
   
