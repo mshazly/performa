@@ -1,4 +1,6 @@
-<?php get_header(); ?>
+<?php 
+/*  Template Name: Home Page */
+get_header(); ?>
   
   <!-- content -->
   <div id="content" class="app-content box-shadow-z2 bg pjax-container" role="main">

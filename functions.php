@@ -117,7 +117,7 @@ function get_main_menu($post_id){
                                                    //<i class='ion-filing'></i>
                                     $primary_nav_beef .= "<li><a href=". $primary_item->url ." class='b-default ".$menuclass."'>"
                                                             .$actv_html
-                                                            ."<span class='nav-icon'><i class='ion-filing'></i></span>"
+                                                            ."<span class='nav-icon'><i class='".$primary_item->classes[0]."'></i></span>"
                                                             . "<span>". $primary_item->title ."</span></a></li>";
 				endforeach;
 

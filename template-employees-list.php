@@ -695,7 +695,7 @@ get_header(); ?>
 						      	<div class="row-inner">
 							      	<!-- content -->
 							      	<div class="p-a-lg text-center">
-							      		<img src="https://performa.noshor.com/wp-content/themes/performa/_include/images/placeholder-m.png" class="w-128 circle animated rollIn" alt=".">
+							      		<img src="https://performa.noshor.com/wp-content/themes/performa/_include/images/placeholder-m.png" class="w-128 circle animated rollIn" style="height:128px;" alt=".">
 							      		<div class="animated fadeInUp">
 								      		<div>
 									      		<span class="text-md m-t block">أحمد علي</span>

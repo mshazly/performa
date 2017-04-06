@@ -107,7 +107,7 @@ get_header(); ?>
                                                         </div>
                                                         
                                                         <div class="col-md-6 text-center col-sm-12">
-                                                            <div class="form-group col-md-12">
+                                                            <div class="form-group col-md-12" style="position: relative;top: 50%;transform: translateY(40%);">
                                                                 <a href="#" data-toggle="modal" data-target="#modal-upload-emp-name" >
                                                                     <span class="avatar w " style="height: 200px;">
                                                                         <img src="<?php echo get_template_directory_uri(); ?>/_include/images/placeholder-m.png" style="height: 200px;">

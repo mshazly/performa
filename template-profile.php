@@ -163,7 +163,7 @@ get_header(); ?>
                 <li class="list-item">
                   <a herf class="list-left">
                     <span class="w-40 avatar">
-                      <img src="<?php echo get_template_directory_uri(); ?>/_include/images/placeholder-m.png" alt="...">
+                      <img src="<?php echo get_template_directory_uri(); ?>/_include/images/placeholder-m.png" alt="..."  style="height:40px;">
                       <!--i class="on b-white bottom"></i-->
                     </span>
                   </a>
