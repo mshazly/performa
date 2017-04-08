@@ -9,7 +9,7 @@ get_header(); ?>
                 <a data-toggle="modal" data-target="#aside" class="navbar-item pull-left hidden-lg-up p-r m-a-0">
                   <i class="ion-navicon"></i>
                 </a>
-                <div class="navbar-item pull-left h5" id="pageTitle">Dashboard</div>
+                <div class="navbar-item pull-left h5" id="pageTitle">الرئيسيه</div>
                 <!-- nabar right -->
                 <ul class="nav navbar-nav pull-right">
                   <li class="nav-item dropdown pos-stc-xs">
@@ -21,7 +21,7 @@ get_header(); ?>
                       <form class="navbar-form form-inline navbar-item m-a-0 p-x v-m" role="search">
                         <div class="form-group l-h m-a-0">
                           <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Search projects...">
+                            <input type="text" class="form-control" placeholder="إبحث عن موظف...">
                             <span class="input-group-btn">
                               <button type="submit" class="btn white b-a no-shadow"><i class="fa fa-search"></i></button>
                             </span>
@@ -31,12 +31,12 @@ get_header(); ?>
                       <!-- / search form -->
                     </div>
                   </li>
-                  <li class="nav-item dropdown pos-stc-xs">
+                  <!--li class="nav-item dropdown pos-stc-xs">
                     <a class="nav-link clear" data-toggle="dropdown">
                       <i class="ion-android-notifications-none w-24"></i>
                       <span class="label up p-a-0 danger"></span>
                     </a>
-                    <!-- dropdown -->
+                    <!-- dropdown >
                     <div class="dropdown-menu pull-right w-xl animated fadeIn no-bg no-border no-shadow">
                         <div class="scrollable" style="max-height: 220px">
                           <ul class="list-group list-group-gap m-a-0">
@@ -71,7 +71,7 @@ get_header(); ?>
                         </div>
                     </div>
                     <!-- / dropdown -->
-                  </li>
+                  </li-->
                   <li class="nav-item dropdown">
                     <a class="nav-link clear" data-toggle="dropdown">
                       <span class="avatar w-32">
@@ -691,54 +691,13 @@ get_header(); ?>
 				</div>
 			    
 			</div>
-			<div class="row">
-				<div class="col-sm-6">
-					<div class="box">
-						<div class="box-header">
-							<h3>Messages</h3>
-						</div>
-						<ul class="list-group no-border m-b">
-					        <li class="list-group-item">
-					          <a href="#" class="pull-left w-40 m-r"><img src="<?php echo get_template_directory_uri(); ?>/_include/images/a8.jpg" class="img-responsive img-circle" alt="."></a>
-					          <div class="clear">
-					            <a href="#" class="_500 block">Jonathan Doe</a>
-					            <span class="text-muted text-ellipsis">Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
-					          </div>
-					        </li>
-					        <li class="list-group-item">
-					          <a href="" class="pull-left w-40 m-r"><img src="<?php echo get_template_directory_uri(); ?>/_include/images/a2.jpg" class="img-responsive img-circle" alt="."></a>
-					          <div class="clear">
-					            <a href="#" class="_500 block">Jack Michale</a>
-					            <span class="text-muted text-ellipsis">Sectetur adipiscing elit</span>
-					          </div>
-					        </li>
-					        <li class="list-group-item">
-					          <a href="" class="pull-left w-40 m-r"><img src="<?php echo get_template_directory_uri(); ?>/_include/images/a3.jpg" class="img-responsive img-circle" alt="."></a>
-					          <div class="clear">
-					            <a href="#" class="_500 block">Jessi</a>
-					            <span class="text-muted text-ellipsis">Sectetur adipiscing elit</span>
-					          </div>
-					        </li>
-					        <li class="list-group-item">
-					          <a href="" class="pull-left w-40 m-r"><img src="<?php echo get_template_directory_uri(); ?>/_include/images/a4.jpg" class="img-responsive img-circle" alt="."></a>
-					          <div class="clear">
-					            <a href="#" class="_500 block">Sodake</a>
-					            <span class="text-muted text-ellipsis">Vestibulum ullamcorper sodales nisi nec condimentum</span>
-					          </div>
-					        </li>
-					    </ul>
-				    </div>
-				</div>
-				<div class="col-sm-6">
-			        
-				</div>
-			</div>
+			
 		</div>
 	</div>
 	<div class="col-lg w-lg w-auto-md white bg">
 		<div>
 	        <div class="p-a">
-	        	<h6 class="text-muted m-a-0">Activities</h6>
+	        	<h6 class="text-muted m-a-0">التحديثات</h6>
 	        </div>
 	        <div class="streamline streamline-theme m-b">
 	          <div class="sl-item b-success">

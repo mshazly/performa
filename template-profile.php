@@ -192,6 +192,12 @@ get_header(); ?>
 <!-- ############ PAGE END-->
 
     </div>
+      
+      <div class="app-footer white bg p-a b-t">
+      <!--div class="pull-right text-sm text-muted">Version 1.0.1</div-->
+      <span class="text-sm text-muted">&copy; 2017 Performa, All rights reserved..</span>
+    </div>
+      
   </div>
   <!-- / -->
   
