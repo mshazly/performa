@@ -30,7 +30,7 @@
     <div class="navside dk" data-layout="column">
       <div class="navbar no-radius">
         <!-- brand -->
-        <a href="index.html" class="navbar-brand">
+        <a href="<?php bloginfo('url'); ?>" class="navbar-brand">
         	<div data-ui-include="'<?php echo get_template_directory_uri(); ?>/_include/images/logo.svg'"></div>
         	<img src="<?php echo get_template_directory_uri(); ?>/_include/images/logo.png" alt="." class="hide">
         	<span class="hidden-folded inline">Performa</span>

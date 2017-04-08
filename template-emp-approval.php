@@ -16,7 +16,7 @@ get_header(); ?>
     </div>
     
     
-    <div class="app-body">
+    <div class="app-body" style="margin-bottom:100px;">
     <div class="padding">
         
         <form class="p-x-xs" name="frm_emp_approve" id="frm_emp_approve" method="POST"></form>
@@ -479,7 +479,7 @@ get_header(); ?>
     </div>
     
     <div class="app-footer white bg p-a b-t">
-      <!--div class="pull-right text-sm text-muted">Version 1.0.1</div-->
+      
       <span class="text-sm text-muted">&copy; 2017 Performa, All rights reserved..</span>
     </div>
     

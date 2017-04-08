@@ -103,17 +103,7 @@ get_header(); ?>
                                                 <div class="box-body">
 
                                                             <div class="row">
-                                                                    <div class="form-group col-md-6">
-                                                                          <select id="sel_compet" name="sel_compet" class="form-control" >
-                                                                              <option value="">اختر الجداره</option>
-                                                                              <option value="1">مهارات الاتصال</option>
-                                                                              <option value="2">رضا العميل</option>
-                                                                              <option value="3">التركيز على النتائج</option>
-                                                                              <option value="4">جدارات القيادة</option>
-                                                                              <option value="5">الجدارات الفنية</option>
-                                                                          </select>
-                                                                    </div>
-                                                                    <div class="form-group col-md-6">
+                                                                <div class="form-group col-md-6">
                                                                           <select id="sel_dept" name="sel_dept" class="form-control" >
                                                                               <option value="">اختر القسم/الإداره</option>
                                                                               <option value="1">ادارة التسويق والاتصالات</option>
@@ -122,6 +112,18 @@ get_header(); ?>
                                                                               <option value="1">ادارة شئون العاملين </option>
                                                                           </select>
                                                                     </div>
+                                                                    <div class="form-group col-md-6">
+                                                                          <select id="sel_job_title" name="sel_job_title" class="form-control" >
+                                                                              <option value="">اختر الوظيفه</option>
+                                                                              <option value="1">نائب مدير عام</option>
+                                                                              <option value="2">مدير اداره</option>
+                                                                              <option value="3">رئيس قسم</option>
+                                                                              <option value="4">نائب مدير</option>
+                                                                              <option value="5">مساعد رئيس قسم</option>
+                                                                              <option value="6">محاسب</option>
+                                                                          </select>
+                                                                    </div>
+                                                                    
                                                             </div>
                                                     
                                                             <div class="row">
@@ -131,7 +133,7 @@ get_header(); ?>
                                                                         <label class="md-check">
                                                                           <input type="checkbox">
                                                                           <i class="indigo"></i>
-                                                                          نائب مدير عام
+                                                                          مهارات الاتصال
                                                                         </label>
                                                                       </p>
                                                                       
@@ -139,7 +141,7 @@ get_header(); ?>
                                                                         <label class="md-check">
                                                                           <input type="checkbox" checked="">
                                                                           <i class="indigo"></i>
-                                                                          مدير اداره 
+                                                                          رضا العميل
                                                                         </label>
                                                                       </p>
                                                                       
@@ -149,7 +151,7 @@ get_header(); ?>
                                                                         <label class="md-check">
                                                                           <input type="checkbox" checked="">
                                                                           <i class="indigo"></i>
-                                                                          نائب مدير
+                                                                            جدارات القيادة
                                                                         </label>
                                                                       </p>
                                                                       
@@ -157,7 +159,7 @@ get_header(); ?>
                                                                         <label class="md-check">
                                                                           <input type="checkbox">
                                                                           <i class="indigo"></i>
-                                                                          رئيس قسم
+                                                                           التركيز على النتائج
                                                                         </label>
                                                                       </p>
                                                                           
@@ -168,17 +170,10 @@ get_header(); ?>
                                                                         <label class="md-check">
                                                                           <input type="checkbox">
                                                                           <i class="indigo"></i>
-                                                                          مساعد رئيس قسم
+                                                                          الجدارات الفنية
                                                                         </label>
                                                                       </p>
                                                                       
-                                                                      <p>
-                                                                        <label class="md-check">
-                                                                          <input type="checkbox">
-                                                                          <i class="indigo"></i>
-                                                                          محاسب
-                                                                        </label>
-                                                                      </p>
                                                                           
                                                                     </div>
                                                             </div>
