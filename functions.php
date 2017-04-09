@@ -40,12 +40,14 @@ function performa_scripts() {
     wp_enqueue_script('app-js', get_template_directory_uri() . '/_include/js/app.js', 'jquery', '1.0', TRUE);
     //wp_enqueue_script('ajax-js', get_template_directory_uri() . '/_include/js/ajax.js', 'jquery', '1.0', TRUE);
     wp_enqueue_script('rtl-js', get_template_directory_uri() . '/_include/js/rtl.js', 'jquery', '1.0', TRUE);
-    
-     
+    //wp_enqueue_script('sparkline-js', get_template_directory_uri() . '/_include/libs/jquery.sparkline/dist/jquery.sparkline.retina.js' , 'jquery', '1.0', TRUE);
+    wp_enqueue_script('echarts-all', get_template_directory_uri() . '/_include/libs/echarts/build/dist/echarts-all.js' , 'jquery', '1.0', TRUE);
+    wp_enqueue_script('echarts-theme', get_template_directory_uri() . '/_include/libs/echarts/build/dist/theme.js' , 'jquery', '1.0', TRUE);
+    wp_enqueue_script('echarts-jquery', get_template_directory_uri() . '/_include/libs/echarts/build/dist/jquery.echarts.js' , 'jquery', '1.0', TRUE);
     
     wp_enqueue_script('isotope-js', get_template_directory_uri() . '/_include/libs/isotope/isotope.pkgd.min.js', 'jquery', '1.0', TRUE);
     
-    wp_enqueue_script('scripts-js', get_template_directory_uri() . '/_include/js/scripts.js', 'jquery', '1.4', TRUE);
+    wp_enqueue_script('scripts-js', get_template_directory_uri() . '/_include/js/scripts.js', array('jquery'), '1.7', TRUE);
   
     
     /*  

@@ -8,6 +8,10 @@ jQuery(function($){
     if($('body').hasClass('page-template-template-employees-list')){
         handle_employees_list($);
     }
+    
+    if($('body').hasClass('page-template-template-homepage')){
+        handle_dashboard($);
+    }
         
 });
 
@@ -260,7 +264,86 @@ function handle_employees_list($){
         return false;
     });
     
-     
-    
+}
+
+function handle_dashboard($){
+    /*$('.echart').each(function(){
+        var opts = $(this).attr('data-ui-options'),
+        opts = opts && eval('[' + opts + ']');
+        $(this).echarts(opts);
+    });*/
+    $('.echart_1').echarts({
+                                                        /*tooltip : {
+                                                            trigger: 'item',
+                                                            formatter: '{a} <br/>{b} : {c} ({d}%)'
+                                                        },
+                                                        legend: {
+                                                            orient : 'vertical',
+                                                            x : 'left',
+                                                            data:['كل العاملين']
+                                                        },*/
+                                                        calculable : true,
+                                                        series : [
+                                                            {
+                                                                name:'Source',
+                                                                type:'pie',
+                                                                radius : ['0', '75%'],
+                      center: ['50%', '50%'],
+                                                                data:[
+                                                                    {value:1200, name:'كل العاملين'}
+                                                                ]
+                                                            }
+                                                        ]
+                                                      });
+                                                      
+    $('.echart_2').echarts({
+                                                        /*tooltip : {
+                                                            trigger: 'item',
+                                                            formatter: '{a} <br/>{b} : {c} ({d}%)'
+                                                        },
+                                                        legend: {
+                                                            orient : 'vertical',
+                                                            x : 'left',
+                                                            data:['العاملين الذين تم تقييمهم','العاملين الذين لم يتم تقييمهم']
+                                                        },*/
+                                                        calculable : true,
+                                                        series : [
+                                                            {
+                                                                name:'Source',
+                                                                type:'pie',
+                                                                radius : ['0', '75%'],
+                      center: ['50%', '50%'],
+                                                                data:[
+                                                                    {value:637, name:'تم التقييم'},
+                                                                    {value:563, name:'لم يتم التقييم'}
+                                                                ]
+                                                            }
+                                                        ]
+                                                      });
+                                                      
+    $('.echart_3').echarts({
+                                                        /*tooltip : {
+                                                            trigger: 'item',
+                                                            formatter: '{a} <br/>{b} : {c} ({d}%)'
+                                                        },
+                                                        legend: {
+                                                            orient : 'vertical',
+                                                            x : 'left',
+                                                            data:['العاملين الذين أتموا الموافقه على التقييم','العاملين الذين لم يوافقوا على التقييم بعد']
+                                                        },*/
+                                                        calculable : true,
+                                                        series : [
+                                                            {
+                                                                name:'Source',
+                                                                type:'pie',
+                                                                radius : ['0', '75%'],
+                                                                center: ['50%', '50%'],
+                                                                data:[
+                                                                    {value:402, name:'تم الموافقة'},
+                                                                    {value:235, name:'لم تتم الموافقة'}
+                                                                ]
+                                                            }
+                                                        ]
+                                                      });
     
 }

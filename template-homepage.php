@@ -123,8 +123,9 @@ get_header(); ?>
 						<h2 class="text-center _600">1200</h2>
 						<p class="text-muted m-b-md">كل العاملين</p>
 						<div>
-                                                    pie chart
-							<span data-ui-jp="sparkline" data-ui-options="[2,3,2,2,1,3,6,3,2,1], {type:'line', height:20, width: '60', lineWidth:1, valueSpots:{'0:':'#818a91'}, lineColor:'#818a91', spotColor:'#818a91', fillColor:'', highlightLineColor:'rgba(120,130,140,0.3)', spotRadius:0}" class="sparkline inline"></span>
+                                                    <div class="echart_1" style="height:100px" >
+                                                      </div>
+                                                    <!--span data-ui-jp="sparkline" data-ui-options="[2,3,2,2,1,3,6,3,2,1], {type:'line', height:20, width: '60', lineWidth:1, valueSpots:{'0:':'#818a91'}, lineColor:'#818a91', spotColor:'#818a91', fillColor:'', highlightLineColor:'rgba(120,130,140,0.3)', spotRadius:0}" class="sparkline inline"></span-->
 						</div>
 					</div>
 				</div>
@@ -139,8 +140,10 @@ get_header(); ?>
 						<h2 class="text-center _600">637</h2>
 						<p class="text-muted m-b-md">العاملين الذين تم تقييمهم</p>
 						<div>
-                                                   pie chart
-							<span data-ui-jp="sparkline" data-ui-options="[1,1,0,2,3,4,2,1,2,2], {type:'line', height:20, width: '60', lineWidth:1, valueSpots:{'0:':'#818a91'}, lineColor:'#818a91', spotColor:'#818a91', fillColor:'', highlightLineColor:'rgba(120,130,140,0.3)', spotRadius:0}" class="sparkline inline"></span>
+                                                    <div class="echart_2" style="height:100px" >
+                                                      </div>
+                                                   
+							<!--span data-ui-jp="sparkline" data-ui-options="[1,1,0,2,3,4,2,1,2,2], {type:'line', height:20, width: '60', lineWidth:1, valueSpots:{'0:':'#818a91'}, lineColor:'#818a91', spotColor:'#818a91', fillColor:'', highlightLineColor:'rgba(120,130,140,0.3)', spotRadius:0}" class="sparkline inline"></span-->
 						</div>
 					</div>
 				</div>
@@ -155,8 +158,9 @@ get_header(); ?>
 						<h2 class="text-center _600">402</h2>
 						<p class="text-muted m-b-md">العاملين الذين أتموا الموافقه على التقييم</p>
 						<div>
-                                                    pie chart
-							<span data-ui-jp="sparkline" data-ui-options="[9,2,5,5,7,4,4,3,2,2], {type:'line', height:20, width: '60', lineWidth:1, valueSpots:{'0:':'#818a91'}, lineColor:'#818a91', spotColor:'#818a91', fillColor:'', highlightLineColor:'rgba(120,130,140,0.3)', spotRadius:0}" class="sparkline inline"></span>
+                                                    <div class="echart_3" style="height:100px" >
+                                                      </div>
+							<!--span data-ui-jp="sparkline" data-ui-options="[9,2,5,5,7,4,4,3,2,2], {type:'line', height:20, width: '60', lineWidth:1, valueSpots:{'0:':'#818a91'}, lineColor:'#818a91', spotColor:'#818a91', fillColor:'', highlightLineColor:'rgba(120,130,140,0.3)', spotRadius:0}" class="sparkline inline"></span-->
 						</div>
 					</div>
 				</div>
@@ -169,9 +173,9 @@ get_header(); ?>
 			        <div class="box">
 			          <div class="box-header">
 			            <h3>إضافة عامل جديد</h3>
-			            <small>A general overview of your sales</small>
+			            <!--small>A general overview of your sales</small-->
 			          </div>
-			          <div class="box-tool">
+			          <!--div class="box-tool">
 				        <ul class="nav">
 				          <li class="nav-item inline">
 				            <a class="nav-link">
@@ -191,9 +195,11 @@ get_header(); ?>
 				            </div>
 				          </li>
 				        </ul>
-				      </div>
-				      	<div>
-			            <canvas data-ui-jp="chart" data-ui-options="
+				      </div-->
+                                  <div class="text-center" style="height:150px;padding-top: 46px;">
+                                      <a class="btn btn-info" href="<?php bloginfo('url')?>/add-new-employee/">إضغط لإضافة عامل جديد</a>
+                                            
+			            <!--canvas data-ui-jp="chart" data-ui-options="
 				            {
 				              type: 'line',
 				              data: {
@@ -242,21 +248,21 @@ get_header(); ?>
 				              }
 				            }
 				            " height="150">
-				            </canvas>
+				            </canvas-->
 				      	</div>
-				        <div class="box-body info text-center p-b-md">
+				        <!--div class="box-body info text-center p-b-md">
 				        	<span class="dark-white rounded m-r p-x p-y-xs text-info"><i class="fa fa-caret-up"></i> 20%</span>
 				        	<span>Over last Month</span>
-				        </div>
+				        </div-->
 			        </div>
 			    </div>
 			    <div class="col-sm-4">
 			    	<div class="box">
 			          <div class="box-header">
-			            <h3>CSV</h3>
-			            <small>Calculated in last 30 days</small>
+			            <h3>تحميل بيانات العاملين في صيغة  CSV</h3>
+			            <!--small>Calculated in last 30 days</small-->
 			          </div>
-			          <div class="box-tool">
+			          <!--div class="box-tool">
 				        <ul class="nav">
 				          <li class="nav-item inline">
 				            <a class="nav-link">
@@ -276,9 +282,10 @@ get_header(); ?>
 				            </div>
 				          </li>
 				        </ul>
-				      </div>
-				        <div>
-			            <canvas data-ui-jp="chart" data-ui-options="
+				      </div-->
+				        <div class="text-center" style="height:150px;padding-top: 46px;">
+                                            <a class="btn btn-success" href="#">تحميل البيانات</a>
+			            <!--canvas data-ui-jp="chart" data-ui-options="
 				            {
 				              type: 'line',
 				              data: {
@@ -327,21 +334,21 @@ get_header(); ?>
 				              }
 				            }
 				            " height="150">
-				            </canvas>
+				            </canvas-->
 				      	</div>
-				        <div class="box-body danger text-center p-b-md">
+				        <!---div class="box-body danger text-center p-b-md">
 				        	<span class="dark-white rounded m-r p-x p-y-xs text-danger"><i class="fa fa-caret-down"></i> 25%</span>
 				        	<span>Over last Month</span>
-				        </div>
+				        </div-->
 			        </div>
 			    </div>
 			    <div class="col-sm-4">
 			    	<div class="box">
 			          <div class="box-header">
 			            <h3>معدل التقييمات</h3>
-			            <small>Calculated in last 7 days</small>
+			            <!--small>Calculated in last 7 days</small-->
 			          </div>
-			          <div class="box-tool">
+			          <!--div class="box-tool">
 				        <ul class="nav">
 				          <li class="nav-item inline">
 				            <a class="nav-link">
@@ -361,9 +368,10 @@ get_header(); ?>
 				            </div>
 				          </li>
 				        </ul>
-				      </div>
-				        <div>
-			            <canvas data-ui-jp="chart" data-ui-options="
+				      </div-->
+                                  <div class="text-center" style="height:150px;padding-top: 46px;">
+                                      <h1 class="text-info">60%</h1>      
+			            <!--canvas data-ui-jp="chart" data-ui-options="
 				            {
 				              type: 'line',
 				              data: {
@@ -412,12 +420,12 @@ get_header(); ?>
 				              }
 				            }
 				            " height="150">
-				            </canvas>
+				            </canvas-->
 				      	</div>
-				        <div class="box-body success text-center p-b-md">
+				        <!---div class="box-body success text-center p-b-md">
 				        	<span class="dark-white rounded m-r p-x p-y-xs text-success"><i class="fa fa-caret-up"></i> 85%</span>
 				        	<span>Over last Month</span>
-				        </div>
+				        </div-->
 			        </div>
 			    </div>
 			</div>
