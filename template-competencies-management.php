@@ -65,6 +65,12 @@ get_header(); ?>
                                                                             <input type="button" id="btn-add-compet" name="btn-add-compet" value="إضافه" class="btn btn-primary"/>
                                                                         </div>
                                                                     </div>
+                                                                    <div class="form-group col-md-12">
+                                                                        <label class="col-sm-2 form-control-label" for="txt_add_compet">تعريف الجداره</label>
+                                                                        <div class="col-sm-7">
+                                                                            <textarea class="form-control"></textarea>
+                                                                        </div>
+                                                                    </div>
                                                             </div>
                                                     
                                                     <div class="row">

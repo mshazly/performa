@@ -345,13 +345,14 @@ get_header(); ?>
                           <tr>
                               <td>
                                  <div class="form-group">
-                                      <select id="sel_traning_1" class="form-control select2" name="sel_traning_1" data-ui-jp="select2" data-ui-options="{theme: 'bootstrap'}">
+                                      <select id="sel_traning_1" class="form-control select2 sel_training" name="sel_traning_1" data-ui-jp="select2" data-ui-options="{theme: 'bootstrap'}">
                                               <option value=""></option>
                                               <option value="gas_program">برامج بترول</option>
-                                              <option value="CA">California</option>
-                                              <option value="NV">Nevada</option>
-                                              <option value="OR">Oregon</option>
-                                              <option value="WA">Washington</option>
+                                              <option value="CA"> التحقيق في الحوادث في مجال النفط</option>
+                                              <option value="NV">الزيوت البترولية وخواصها وكيفية إختبارها وتخزينها</option>
+                                              <option value="OR">الملوثات البيولوجية للنفط وطرق مكافحتها</option>
+                                              <option value="WA">برنامج صيانة وتنظيف الخزانات النفطية</option>
+                                              <option value="sel_traning_other">أخرى</option>
                                       </select>
                                 </div>
                               </td>
@@ -364,13 +365,14 @@ get_header(); ?>
                           <tr>
                               <td>
                                  <div class="form-group">
-                                      <select id="sel_traning_2" class="form-control select2" name="sel_traning_2" data-ui-jp="select2" data-ui-options="{theme: 'bootstrap'}">
+                                      <select id="sel_traning_2" class="form-control select2 sel_training" name="sel_traning_2" data-ui-jp="select2" data-ui-options="{theme: 'bootstrap'}">
                                               <option value=""></option>
                                               <option value="gas_program">برامج بترول</option>
-                                              <option value="CA">California</option>
-                                              <option value="NV">Nevada</option>
-                                              <option value="OR">Oregon</option>
-                                              <option value="WA">Washington</option>
+                                              <option value="CA"> التحقيق في الحوادث في مجال النفط</option>
+                                              <option value="NV">الزيوت البترولية وخواصها وكيفية إختبارها وتخزينها</option>
+                                              <option value="OR">الملوثات البيولوجية للنفط وطرق مكافحتها</option>
+                                              <option value="WA">برنامج صيانة وتنظيف الخزانات النفطية</option>
+                                              <option value="sel_traning_other">أخرى</option>
                                       </select>
                                 </div>
                               </td>
@@ -383,13 +385,14 @@ get_header(); ?>
                           <tr>
                               <td>
                                  <div class="form-group">
-                                      <select id="sel_traning_3" class="form-control select2" name="sel_traning_3" data-ui-jp="select2" data-ui-options="{theme: 'bootstrap'}">
+                                      <select id="sel_traning_3" class="form-control select2 sel_training" name="sel_traning_3" data-ui-jp="select2" data-ui-options="{theme: 'bootstrap'}">
                                               <option value=""></option>
                                               <option value="gas_program">برامج بترول</option>
-                                              <option value="CA">California</option>
-                                              <option value="NV">Nevada</option>
-                                              <option value="OR">Oregon</option>
-                                              <option value="WA">Washington</option>
+                                              <option value="CA"> التحقيق في الحوادث في مجال النفط</option>
+                                              <option value="NV">الزيوت البترولية وخواصها وكيفية إختبارها وتخزينها</option>
+                                              <option value="OR">الملوثات البيولوجية للنفط وطرق مكافحتها</option>
+                                              <option value="WA">برنامج صيانة وتنظيف الخزانات النفطية</option>
+                                              <option value="sel_traning_other">أخرى</option>
                                       </select>
                                 </div>
                               </td>

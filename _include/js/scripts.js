@@ -1,7 +1,13 @@
 jQuery(function($){ 
   	//-- Enable Use Strict Mode --
   	"use strict";
-     
+        
+    /** Added from ajax.js **/    
+    $('[ui-jp], [data-ui-jp]').uiJp();
+    $('body').uiInclude();
+    $('[data-toggle="tooltip"]').tooltip();
+    /** Added from ajax.js **/
+    
     if($('body').hasClass('page-template-template-appraisal-form')){
         handle_app_form($);
     }
@@ -12,6 +18,11 @@ jQuery(function($){
     if($('body').hasClass('page-template-template-homepage')){
         handle_dashboard($);
     }
+    
+    if($('body').hasClass('page-template-template-emp-approval')){
+        handle_emp_approval($);
+    }
+    
         
 });
 
@@ -346,4 +357,30 @@ function handle_dashboard($){
                                                         ]
                                                       });
     
+}
+
+
+function handle_emp_approval($){
+    $('.sel_training').change(function(){
+       var val = $(this).val(),
+            ele_id = $(this).attr('id');
+       if(val == 'sel_traning_other'){
+           var html = '<div class="row add-training-container">'
+                            +'<div class="form-group col-md-8">'
+                            +'<input type="text" class="form-control" id="txt-training-name" name="txt-training-name" placeholder="إسم التدريب"> </div> '
+                            +'<div class="form-group col-md-4">'
+                            +'<input type="submit" value="إضافه" class="btn btn-primary" id="btn-add-training" name="btn-add-training"></div></div>';
+            $('#'+ele_id).parent().after(html);
+       }
+    });
+    
+    $(document).on('click','.add-training-container #btn-add-training', function(e){
+        e.preventDefault();
+        var course_name = $('#txt-training-name').val();
+        if($.trim(course_name) != ''){
+            $(this).parent().parent().parent().find('.sel_training option[value=sel_traning_other]').before('<option val="id_1" >'+course_name+'</option>');
+            $('.add-training-container').remove();
+        }
+        return false;
+    });
 }

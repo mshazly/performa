@@ -242,7 +242,13 @@ get_header(); ?>
                                     <td rowspan="4">جدارات رئيسية </td>
                                   </tr-->
                                   <tr class="major_competencies" comp_no="1">
-                                      <td>مهارات الاتصال</td>
+                                      <td>مهارات الاتصال
+                                        <div class="box accent">
+                                            <div class="box-body">
+                                                <p class="m-a-0">إذ تلك حقول السفن, الى مع شعار واعتلاء. إذ جدول الشتاء بريطانيا-فرنسا أضف, لم بقصف ومضى العظمى كان. الجو العالم، ألمانيا فقد مع.</p>
+                                            </div>
+                                        </div>
+                                      </td>
                                       <td>
                                         <div class="form-group">
                                             <input type="text" id="tbl_txt_comm_skils_weight" name="tbl_txt_comm_skils_weight" class="form-control comptencies_weight" value="20%" disabled>
@@ -270,7 +276,13 @@ get_header(); ?>
                                       </td>
                                   </tr>
                                   <tr class="major_competencies" comp_no="2">
-                                      <td>رضا العميل</td>
+                                      <td>رضا العميل
+                                        <div class="box accent">
+                                            <div class="box-body">
+                                                <p class="m-a-0">إذ تلك حقول السفن, الى مع شعار واعتلاء. إذ جدول الشتاء بريطانيا-فرنسا أضف, لم بقصف ومضى العظمى كان. الجو العالم، ألمانيا فقد مع.</p>
+                                            </div>
+                                        </div>
+                                      </td>
                                       <td>
                                         <div class="form-group">
                                               <input type="text" id="tbl_txt_client_satisfaction_weight" name="tbl_txt_client_satisfaction_weight" class="form-control comptencies_weight" value="20%" disabled>
@@ -298,7 +310,13 @@ get_header(); ?>
                                       </td>
                                   </tr>
                                   <tr class="major_competencies" comp_no="3">
-                                      <td>التركيز على النتائج</td>
+                                      <td>التركيز على النتائج
+                                          <div class="box accent">
+                                            <div class="box-body">
+                                                <p class="m-a-0">إذ تلك حقول السفن, الى مع شعار واعتلاء. إذ جدول الشتاء بريطانيا-فرنسا أضف, لم بقصف ومضى العظمى كان. الجو العالم، ألمانيا فقد مع.</p>
+                                            </div>
+                                        </div>
+                                      </td>
                                       <td>
                                         <div class="form-group">
                                               <input type="text" id="tbl_txt_results_focus_weight" name="tbl_txt_results_focus_weight" class="form-control comptencies_weight" value="60%" disabled>
@@ -385,7 +403,13 @@ get_header(); ?>
                                       </td>
                                   </tr-->
                                   <tr class="leading_competencies" comp_no="4">
-                                      <td>جدارات القيادة</td>
+                                      <td>جدارات القيادة
+                                        <div class="box accent">
+                                            <div class="box-body">
+                                                <p class="m-a-0">إذ تلك حقول السفن, الى مع شعار واعتلاء. إذ جدول الشتاء بريطانيا-فرنسا أضف, لم بقصف ومضى العظمى كان. الجو العالم، ألمانيا فقد مع.</p>
+                                            </div>
+                                        </div>
+                                      </td>
                                       <td>
                                         <div class="form-group">
                                             <input type="text" id="tbl_txt_lead_comp_weight" name="tbl_txt_lead_comp_weight" class="form-control comptencies_weight" disabled>
