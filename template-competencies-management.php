@@ -66,11 +66,24 @@ get_header(); ?>
                                                                         </div>
                                                                     </div>
                                                                     <div class="form-group col-md-12">
-                                                                        <label class="col-sm-2 form-control-label" for="txt_add_compet">تعريف الجداره</label>
+                                                                        <label class="col-sm-2 form-control-label" for="txt_add_compet_desc">تعريف الجداره</label>
                                                                         <div class="col-sm-7">
-                                                                            <textarea class="form-control"></textarea>
+                                                                            <textarea class="form-control" id="txt_add_compet_desc" name="txt_add_compet_desc" ></textarea>
                                                                         </div>
                                                                     </div>
+                                                                    <div class="form-group col-md-12">
+                                                                        <label class="col-sm-2 form-control-label" for="txt_add_compet_level"> مستوى الجداره</label>
+                                                                        <div class="col-sm-7">
+                                                                            <input type="text" id="txt_add_compet_level" name="txt_add_compet_level" class="form-control"  >
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group col-md-12">
+                                                                        <label class="col-sm-2 form-control-label" for="txt_add_compet_level_desc">تعريف مستوى الجداره</label>
+                                                                        <div class="col-sm-7">
+                                                                            <textarea class="form-control" id="txt_add_compet_level_desc" name="txt_add_compet_level_desc"></textarea>
+                                                                        </div>
+                                                                    </div>
+                                                                    
                                                             </div>
                                                     
                                                     <div class="row">

@@ -243,7 +243,7 @@ get_header(); ?>
                                   </tr-->
                                   <tr class="major_competencies" comp_no="1">
                                       <td>مهارات الاتصال
-                                        <div class="box accent">
+                                        <div class="box primary">
                                             <div class="box-body">
                                                 <p class="m-a-0">إذ تلك حقول السفن, الى مع شعار واعتلاء. إذ جدول الشتاء بريطانيا-فرنسا أضف, لم بقصف ومضى العظمى كان. الجو العالم، ألمانيا فقد مع.</p>
                                             </div>
@@ -257,6 +257,11 @@ get_header(); ?>
                                       <td>
                                         <div class="form-group">
                                               <input type="text" id="tbl_txt_comm_skils_level" name="tbl_txt_comm_skils_level" class="form-control" value="3" disabled>
+                                        </div>
+                                        <div class="box primary">
+                                                    <div class="box-body">
+                                                        <p class="m-a-0">إذ جدول الشتاء بريطانيا-فرنسا أضف, لم بقصف ومضى العظمى كان. الجو العالم، ألمانيا فقد مع.</p>
+                                                    </div>
                                         </div>
                                       </td>
                                       <td>
@@ -277,7 +282,7 @@ get_header(); ?>
                                   </tr>
                                   <tr class="major_competencies" comp_no="2">
                                       <td>رضا العميل
-                                        <div class="box accent">
+                                        <div class="box primary">
                                             <div class="box-body">
                                                 <p class="m-a-0">إذ تلك حقول السفن, الى مع شعار واعتلاء. إذ جدول الشتاء بريطانيا-فرنسا أضف, لم بقصف ومضى العظمى كان. الجو العالم، ألمانيا فقد مع.</p>
                                             </div>
@@ -291,6 +296,11 @@ get_header(); ?>
                                       <td>
                                         <div class="form-group">
                                               <input type="text" id="tbl_txt_client_satisfaction_level" name="tbl_txt_client_satisfaction_level" class="form-control" value="2" disabled>
+                                        </div>
+                                        <div class="box primary">
+                                                    <div class="box-body">
+                                                        <p class="m-a-0">إذ جدول الشتاء بريطانيا-فرنسا أضف, لم بقصف ومضى العظمى كان. الجو العالم، ألمانيا فقد مع.</p>
+                                                    </div>
                                         </div>
                                       </td>
                                       <td>
@@ -311,7 +321,7 @@ get_header(); ?>
                                   </tr>
                                   <tr class="major_competencies" comp_no="3">
                                       <td>التركيز على النتائج
-                                          <div class="box accent">
+                                          <div class="box primary">
                                             <div class="box-body">
                                                 <p class="m-a-0">إذ تلك حقول السفن, الى مع شعار واعتلاء. إذ جدول الشتاء بريطانيا-فرنسا أضف, لم بقصف ومضى العظمى كان. الجو العالم، ألمانيا فقد مع.</p>
                                             </div>
@@ -325,6 +335,11 @@ get_header(); ?>
                                       <td>
                                         <div class="form-group">
                                               <input type="text" id="tbl_txt_results_focus_level" name="tbl_txt_results_focus_level" class="form-control" value="3" disabled>
+                                        </div>
+                                        <div class="box primary">
+                                                    <div class="box-body">
+                                                        <p class="m-a-0">إذ جدول الشتاء بريطانيا-فرنسا أضف, لم بقصف ومضى العظمى كان. الجو العالم، ألمانيا فقد مع.</p>
+                                                    </div>
                                         </div>
                                       </td>
                                       <td>
@@ -343,68 +358,10 @@ get_header(); ?>
                                         </div>
                                       </td>
                                   </tr>
-                                  <!--tr>
-                                      <td rowspan="3">الجدارات الفنية </td>
-                                  </tr>
-                                  <tr class="technical_competencies">
-                                      <td></td>
-                                      <td>
-                                        <div class="form-group">
-                                              <input type="text" id="tbl_txt_tech_comp_1_weight" name="tbl_txt_tech_comp_1_weight" class="form-control">
-                                        </div>
-                                      </td>
-                                      <td>
-                                        <div class="form-group">
-                                              <input type="text" id="tbl_txt_tech_comp_1_level" name="tbl_txt_tech_comp_1_level" class="form-control">
-                                        </div>
-                                      </td>
-                                      <td>
-                                        <div class="form-group">
-                                              <input type="text" id="tbl_txt_tech_comp_1_degree_100" name="tbl_txt_tech_comp_1_degree_100" class="form-control">
-                                        </div>
-                                      </td>
-                                      <td>
-                                        <div class="form-group">
-                                              <input type="text" id="tbl_txt_tech_comp_1_performance" name="tbl_txt_tech_comp_1_performance" class="form-control">
-                                        </div>
-                                      </td>
-                                      <td>
-                                        <div class="form-group">
-                                              <input type="text" id="tbl_txt_tech_comp_1_weight_40" name="tbl_txt_tech_comp_1_weight_40" class="form-control">
-                                        </div>
-                                      </td>
-                                  </tr>
-                                  <tr class="technical_competencies">
-                                      <td></td>
-                                      <td>
-                                        <div class="form-group">
-                                              <input type="text" id="tbl_txt_tech_comp_2_weight" name="tbl_txt_tech_comp_2_weight" class="form-control">
-                                        </div>
-                                      </td>
-                                      <td>
-                                        <div class="form-group">
-                                              <input type="text" id="tbl_txt_tech_comp_2_level" name="tbl_txt_tech_comp_2_level" class="form-control">
-                                        </div>
-                                      </td>
-                                      <td>
-                                        <div class="form-group">
-                                              <input type="text" id="tbl_txt_tech_comp_2_degree_100" name="tbl_txt_tech_comp_2_degree_100" class="form-control">
-                                        </div>
-                                      </td>
-                                      <td>
-                                        <div class="form-group">
-                                              <input type="text" id="tbl_txt_tech_comp_2_performance" name="tbl_txt_tech_comp_2_performance" class="form-control">
-                                        </div>
-                                      </td>
-                                      <td>
-                                        <div class="form-group">
-                                              <input type="text" id="tbl_txt_tech_comp_2_weight_40" name="tbl_txt_tech_comp_2_weight_40" class="form-control">
-                                        </div>
-                                      </td>
-                                  </tr-->
+                                  
                                   <tr class="leading_competencies" comp_no="4">
                                       <td>جدارات القيادة
-                                        <div class="box accent">
+                                        <div class="box primary">
                                             <div class="box-body">
                                                 <p class="m-a-0">إذ تلك حقول السفن, الى مع شعار واعتلاء. إذ جدول الشتاء بريطانيا-فرنسا أضف, لم بقصف ومضى العظمى كان. الجو العالم، ألمانيا فقد مع.</p>
                                             </div>
