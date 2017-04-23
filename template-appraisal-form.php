@@ -243,11 +243,12 @@ get_header(); ?>
                                   </tr-->
                                   <tr class="major_competencies" comp_no="1">
                                       <td>مهارات الاتصال
-                                        <div class="box primary">
+                                          <i class="fa fa-question-circle" data-toggle="tooltip" data-original-title="إذ تلك حقول السفن, الى مع شعار واعتلاء. إذ جدول الشتاء بريطانيا-فرنسا أضف, لم بقصف ومضى العظمى كان. الجو العالم، ألمانيا فقد مع." ></i>
+                                        <!--div class="box primary">
                                             <div class="box-body">
                                                 <p class="m-a-0">إذ تلك حقول السفن, الى مع شعار واعتلاء. إذ جدول الشتاء بريطانيا-فرنسا أضف, لم بقصف ومضى العظمى كان. الجو العالم، ألمانيا فقد مع.</p>
                                             </div>
-                                        </div>
+                                        </div-->
                                       </td>
                                       <td>
                                         <div class="form-group">
@@ -257,11 +258,7 @@ get_header(); ?>
                                       <td>
                                         <div class="form-group">
                                               <input type="text" id="tbl_txt_comm_skils_level" name="tbl_txt_comm_skils_level" class="form-control" value="3" disabled>
-                                        </div>
-                                        <div class="box primary">
-                                                    <div class="box-body">
-                                                        <p class="m-a-0">إذ جدول الشتاء بريطانيا-فرنسا أضف, لم بقصف ومضى العظمى كان. الجو العالم، ألمانيا فقد مع.</p>
-                                                    </div>
+                                              <i class="fa fa-question-circle" data-toggle="tooltip" data-original-title="إذ جدول الشتاء بريطانيا-فرنسا أضف, لم بقصف ومضى العظمى كان. الجو العالم، ألمانيا فقد مع." ></i>
                                         </div>
                                       </td>
                                       <td>
@@ -282,11 +279,7 @@ get_header(); ?>
                                   </tr>
                                   <tr class="major_competencies" comp_no="2">
                                       <td>رضا العميل
-                                        <div class="box primary">
-                                            <div class="box-body">
-                                                <p class="m-a-0">إذ تلك حقول السفن, الى مع شعار واعتلاء. إذ جدول الشتاء بريطانيا-فرنسا أضف, لم بقصف ومضى العظمى كان. الجو العالم، ألمانيا فقد مع.</p>
-                                            </div>
-                                        </div>
+                                        <i class="fa fa-question-circle" data-toggle="tooltip" data-original-title="إذ تلك حقول السفن, الى مع شعار واعتلاء. إذ جدول الشتاء بريطانيا-فرنسا أضف, لم بقصف ومضى العظمى كان. الجو العالم، ألمانيا فقد مع." ></i>
                                       </td>
                                       <td>
                                         <div class="form-group">
@@ -296,12 +289,9 @@ get_header(); ?>
                                       <td>
                                         <div class="form-group">
                                               <input type="text" id="tbl_txt_client_satisfaction_level" name="tbl_txt_client_satisfaction_level" class="form-control" value="2" disabled>
+                                              <i class="fa fa-question-circle" data-toggle="tooltip" data-original-title="إذ جدول الشتاء بريطانيا-فرنسا أضف, لم بقصف ومضى العظمى كان. الجو العالم، ألمانيا فقد مع." ></i>
                                         </div>
-                                        <div class="box primary">
-                                                    <div class="box-body">
-                                                        <p class="m-a-0">إذ جدول الشتاء بريطانيا-فرنسا أضف, لم بقصف ومضى العظمى كان. الجو العالم، ألمانيا فقد مع.</p>
-                                                    </div>
-                                        </div>
+                                        
                                       </td>
                                       <td>
                                         <div class="form-group">
@@ -321,11 +311,7 @@ get_header(); ?>
                                   </tr>
                                   <tr class="major_competencies" comp_no="3">
                                       <td>التركيز على النتائج
-                                          <div class="box primary">
-                                            <div class="box-body">
-                                                <p class="m-a-0">إذ تلك حقول السفن, الى مع شعار واعتلاء. إذ جدول الشتاء بريطانيا-فرنسا أضف, لم بقصف ومضى العظمى كان. الجو العالم، ألمانيا فقد مع.</p>
-                                            </div>
-                                        </div>
+                                          <i class="fa fa-question-circle" data-toggle="tooltip" data-original-title="إذ تلك حقول السفن, الى مع شعار واعتلاء. إذ جدول الشتاء بريطانيا-فرنسا أضف, لم بقصف ومضى العظمى كان. الجو العالم، ألمانيا فقد مع." ></i>
                                       </td>
                                       <td>
                                         <div class="form-group">
@@ -335,12 +321,9 @@ get_header(); ?>
                                       <td>
                                         <div class="form-group">
                                               <input type="text" id="tbl_txt_results_focus_level" name="tbl_txt_results_focus_level" class="form-control" value="3" disabled>
+                                              <i class="fa fa-question-circle" data-toggle="tooltip" data-original-title="إذ جدول الشتاء بريطانيا-فرنسا أضف, لم بقصف ومضى العظمى كان. الجو العالم، ألمانيا فقد مع." ></i>
                                         </div>
-                                        <div class="box primary">
-                                                    <div class="box-body">
-                                                        <p class="m-a-0">إذ جدول الشتاء بريطانيا-فرنسا أضف, لم بقصف ومضى العظمى كان. الجو العالم، ألمانيا فقد مع.</p>
-                                                    </div>
-                                        </div>
+                                        
                                       </td>
                                       <td>
                                         <div class="form-group">
@@ -361,11 +344,7 @@ get_header(); ?>
                                   
                                   <tr class="leading_competencies" comp_no="4">
                                       <td>جدارات القيادة
-                                        <div class="box primary">
-                                            <div class="box-body">
-                                                <p class="m-a-0">إذ تلك حقول السفن, الى مع شعار واعتلاء. إذ جدول الشتاء بريطانيا-فرنسا أضف, لم بقصف ومضى العظمى كان. الجو العالم، ألمانيا فقد مع.</p>
-                                            </div>
-                                        </div>
+                                        <i class="fa fa-question-circle" data-toggle="tooltip" data-original-title="إذ تلك حقول السفن, الى مع شعار واعتلاء. إذ جدول الشتاء بريطانيا-فرنسا أضف, لم بقصف ومضى العظمى كان. الجو العالم، ألمانيا فقد مع." ></i>
                                       </td>
                                       <td>
                                         <div class="form-group">
@@ -507,11 +486,21 @@ get_header(); ?>
                                     <td></td>
                                     <td id="total_weight"></td>
                                   </tr>
+                                  <tr>
+                                    <td>سبب درجه التقييم</td>
+                                    <td colspan="5">
+                                        <div class="form-group">
+                                              <input type="text" id="tbl_txt_grade_reason" name="tbl_txt_grade_reason" class="form-control">
+                                        </div>
+                                    </td>
+                                  </tr>
                                 </tbody>
 
                             </table>
                         </div>
                     </div>
+                    
+                    
 
                     <!--div class="box">
                         <div class="box-header">
