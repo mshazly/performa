@@ -71,7 +71,7 @@ get_header(); ?>
                                                                             <textarea class="form-control" id="txt_add_compet_desc" name="txt_add_compet_desc" ></textarea>
                                                                         </div>
                                                                     </div>
-                                                                    <div class="form-group col-md-12">
+                                                                    <!--div class="form-group col-md-12">
                                                                         <label class="col-sm-2 form-control-label" for="txt_add_compet_level"> مستوى الجداره</label>
                                                                         <div class="col-sm-7">
                                                                             <input type="text" id="txt_add_compet_level" name="txt_add_compet_level" class="form-control"  >
@@ -82,7 +82,7 @@ get_header(); ?>
                                                                         <div class="col-sm-7">
                                                                             <textarea class="form-control" id="txt_add_compet_level_desc" name="txt_add_compet_level_desc"></textarea>
                                                                         </div>
-                                                                    </div>
+                                                                    </div-->
                                                                     
                                                             </div>
                                                     
@@ -147,51 +147,107 @@ get_header(); ?>
                                                     
                                                             <div class="row">
                                                                     <div class="col-md-4">
-                                                                        
-                                                                      <p>
-                                                                        <label class="md-check">
-                                                                          <input type="checkbox">
-                                                                          <i class="indigo"></i>
-                                                                          مهارات الاتصال
-                                                                        </label>
-                                                                      </p>
+                                                                        <div class="form-group">
+                                                                                <label class="md-check">
+                                                                                  <input type="checkbox">
+                                                                                  <i class="indigo"></i>
+                                                                                  مهارات الاتصال
+                                                                                </label>
+
+                                                                            <div class="radio">
+                                                                                <label class="ui-check radio-inline"><input type="radio" name="comm_level" value="level1" class="has-value"> <i class="dark-white"></i> المستوى: 1</label>
+                                                                                <label class="ui-check radio-inline"><input type="radio" name="comm_level" value="level2" class="has-value"> <i class="dark-white"></i> المستوى: 2</label>
+                                                                            </div>
+                                                                            
+                                                                            <div class="radio">
+                                                                                <label class="ui-check radio-inline"><input type="radio" name="comm_level" value="level3" class="has-value"> <i class="dark-white"></i> المستوى: 3</label>
+                                                                                <label class="ui-check radio-inline"><input type="radio" name="comm_level" value="level4" class="has-value"> <i class="dark-white"></i> المستوى: 4</label>
+                                                                            </div>
                                                                       
-                                                                      <p>
-                                                                        <label class="md-check">
-                                                                          <input type="checkbox" checked="">
-                                                                          <i class="indigo"></i>
-                                                                          رضا العميل
-                                                                        </label>
-                                                                      </p>
+                                                                        </div> 
+                                                                        <div class="form-group">
+                                                                                <label class="md-check">
+                                                                                    <input type="checkbox" checked="">
+                                                                                    <i class="indigo"></i>
+                                                                                    رضا العميل
+                                                                                  </label>
+
+                                                                            <div class="radio">
+                                                                                <label class="ui-check radio-inline"><input type="radio" name="clnt_level" value="level1" class="has-value"> <i class="dark-white"></i> المستوى: 1</label>
+                                                                                <label class="ui-check radio-inline"><input type="radio" name="clnt_level" value="level2" class="has-value"> <i class="dark-white"></i> المستوى: 2</label>
+                                                                            </div>
+                                                                            
+                                                                            <div class="radio">
+                                                                                <label class="ui-check radio-inline"><input type="radio" name="clnt_level" value="level3" class="has-value"> <i class="dark-white"></i> المستوى: 3</label>
+                                                                                <label class="ui-check radio-inline"><input type="radio" name="clnt_level" value="level4" class="has-value"> <i class="dark-white"></i> المستوى: 4</label>
+                                                                            </div>
+                                                                      
+                                                                        </div>
+                                                                      
                                                                       
                                                                     </div>
                                                                     <div class="col-md-4">
-                                                                      <p>
-                                                                        <label class="md-check">
-                                                                          <input type="checkbox" checked="">
-                                                                          <i class="indigo"></i>
-                                                                            جدارات القيادة
-                                                                        </label>
-                                                                      </p>
+                                                                        <div class="form-group">
+                                                                                <label class="md-check">
+                                                                                    <input type="checkbox" checked="">
+                                                                                    <i class="indigo"></i>
+                                                                                      جدارات القيادة
+                                                                                  </label>
+
+                                                                            <div class="radio">
+                                                                                <label class="ui-check radio-inline"><input type="radio" name="lead_level" value="level1" class="has-value"> <i class="dark-white"></i> المستوى: 1</label>
+                                                                                <label class="ui-check radio-inline"><input type="radio" name="lead_level" value="level2" class="has-value"> <i class="dark-white"></i> المستوى: 2</label>
+                                                                            </div>
+                                                                            
+                                                                            <div class="radio">
+                                                                                <label class="ui-check radio-inline"><input type="radio" name="lead_level" value="level3" class="has-value"> <i class="dark-white"></i> المستوى: 3</label>
+                                                                                <label class="ui-check radio-inline"><input type="radio" name="lead_level" value="level4" class="has-value"> <i class="dark-white"></i> المستوى: 4</label>
+                                                                            </div>
                                                                       
-                                                                      <p>
-                                                                        <label class="md-check">
-                                                                          <input type="checkbox">
-                                                                          <i class="indigo"></i>
-                                                                           التركيز على النتائج
-                                                                        </label>
-                                                                      </p>
+                                                                        </div>
+                                                                        
+                                                                        <div class="form-group">
+                                                                                <label class="md-check">
+                                                                                    <input type="checkbox">
+                                                                                    <i class="indigo"></i>
+                                                                                     التركيز على النتائج
+                                                                                  </label>
+
+                                                                            <div class="radio">
+                                                                                <label class="ui-check radio-inline"><input type="radio" name="res_level" value="level1" class="has-value"> <i class="dark-white"></i> المستوى: 1</label>
+                                                                                <label class="ui-check radio-inline"><input type="radio" name="res_level" value="level2" class="has-value"> <i class="dark-white"></i> المستوى: 2</label>
+                                                                            </div>
+                                                                            
+                                                                            <div class="radio">
+                                                                                <label class="ui-check radio-inline"><input type="radio" name="res_level" value="level3" class="has-value"> <i class="dark-white"></i> المستوى: 3</label>
+                                                                                <label class="ui-check radio-inline"><input type="radio" name="res_level" value="level4" class="has-value"> <i class="dark-white"></i> المستوى: 4</label>
+                                                                            </div>
+                                                                      
+                                                                        </div>
+                                                                      
+                                                                     
                                                                           
                                                                     </div>
                                                                     <div class="col-md-4">
-                                                                        
-                                                                       <p>
-                                                                        <label class="md-check">
-                                                                          <input type="checkbox">
-                                                                          <i class="indigo"></i>
-                                                                          الجدارات الفنية
-                                                                        </label>
-                                                                      </p>
+                                                                        <div class="form-group">
+                                                                                <label class="md-check">
+                                                                                    <input type="checkbox">
+                                                                                    <i class="indigo"></i>
+                                                                                    الجدارات الفنية
+                                                                                  </label>
+
+                                                                            <div class="radio">
+                                                                                <label class="ui-check radio-inline"><input type="radio" name="tech_level" value="level1" class="has-value"> <i class="dark-white"></i> المستوى: 1</label>
+                                                                                <label class="ui-check radio-inline"><input type="radio" name="tech_level" value="level2" class="has-value"> <i class="dark-white"></i> المستوى: 2</label>
+                                                                            </div>
+                                                                            
+                                                                            <div class="radio">
+                                                                                <label class="ui-check radio-inline"><input type="radio" name="tech_level" value="level3" class="has-value"> <i class="dark-white"></i> المستوى: 3</label>
+                                                                                <label class="ui-check radio-inline"><input type="radio" name="tech_level" value="level4" class="has-value"> <i class="dark-white"></i> المستوى: 4</label>
+                                                                            </div>
+                                                                      
+                                                                        </div>
+                                                                       
                                                                       
                                                                           
                                                                     </div>
