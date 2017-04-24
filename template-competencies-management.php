@@ -61,9 +61,6 @@ get_header(); ?>
                                                                         <div class="col-sm-7">
                                                                           <input type="text" id="txt_add_compet" name="txt_add_compet" class="form-control"  >
                                                                         </div>
-                                                                        <div class="col-sm-3">
-                                                                            <input type="button" id="btn-add-compet" name="btn-add-compet" value="إضافه" class="btn btn-primary"/>
-                                                                        </div>
                                                                     </div>
                                                                     <div class="form-group col-md-12">
                                                                         <label class="col-sm-2 form-control-label" for="txt_add_compet_desc">تعريف الجداره</label>
@@ -71,10 +68,15 @@ get_header(); ?>
                                                                             <textarea class="form-control" id="txt_add_compet_desc" name="txt_add_compet_desc" ></textarea>
                                                                         </div>
                                                                     </div>
-                                                                    <!--div class="form-group col-md-12">
-                                                                        <label class="col-sm-2 form-control-label" for="txt_add_compet_level"> مستوى الجداره</label>
+                                                                    <div class="form-group col-md-12">
+                                                                        <label class="col-sm-2 form-control-label" for="sel_add_compet_level"> مستوى الجداره</label>
                                                                         <div class="col-sm-7">
-                                                                            <input type="text" id="txt_add_compet_level" name="txt_add_compet_level" class="form-control"  >
+                                                                            <select id="sel_add_compet_level" name="sel_add_compet_level" class="form-control"  >
+                                                                                <option value="0">المستوى: 1</option>
+                                                                                <option value="1">المستوى: 2</option>
+                                                                                <option value="2">المستوى: 3</option>
+                                                                                <option value="3">المستوى: 4</option>
+                                                                            </select>
                                                                         </div>
                                                                     </div>
                                                                     <div class="form-group col-md-12">
@@ -82,7 +84,10 @@ get_header(); ?>
                                                                         <div class="col-sm-7">
                                                                             <textarea class="form-control" id="txt_add_compet_level_desc" name="txt_add_compet_level_desc"></textarea>
                                                                         </div>
-                                                                    </div-->
+                                                                        <div class="col-sm-3">
+                                                                            <input type="button" id="btn-add-compet" name="btn-add-compet" value="إضافه جداره" class="btn btn-primary"/>
+                                                                        </div>
+                                                                    </div>
                                                                     
                                                             </div>
                                                     
@@ -93,7 +98,7 @@ get_header(); ?>
                                                                           <input type="text" id="txt_add_dept" name="txt_add_dept" class="form-control"  >
                                                                         </div>
                                                                         <div class="col-sm-3">
-                                                                            <input type="button" id="btn-add-dept" name="btn-add-dept" value="إضافه" class="btn btn-primary"/>
+                                                                            <input type="button" id="btn-add-dept" name="btn-add-dept" value="إضافه قسم" class="btn btn-primary"/>
                                                                         </div>
                                                                     </div>
                                                             </div>
@@ -105,7 +110,7 @@ get_header(); ?>
                                                                           <input type="text" id="txt_add_title" name="txt_add_title" class="form-control"  >
                                                                         </div>
                                                                         <div class="col-sm-3">
-                                                                            <input type="button" id="btn-add-title" name="btn-add-title" value="إضافه" class="btn btn-primary"/>
+                                                                            <input type="button" id="btn-add-title" name="btn-add-title" value="إضافه وظيفه" class="btn btn-primary"/>
                                                                         </div>
                                                                     </div>
                                                             </div>
@@ -140,6 +145,7 @@ get_header(); ?>
                                                                               <option value="4">نائب مدير</option>
                                                                               <option value="5">مساعد رئيس قسم</option>
                                                                               <option value="6">محاسب</option>
+                                                                              <option value="7">فني تركيبات</option>
                                                                           </select>
                                                                     </div>
                                                                     
